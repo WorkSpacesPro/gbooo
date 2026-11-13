@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google" content="notranslate">
+    
+    <title>Geek Base | gb.ooo</title>
+    <meta name="description" content="Geek Base - 极客基地。汇集极客导航、开源排行与各类数字实验。">
+    
+    <!-- 🚫 屏蔽搜索引擎收录 -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    
+    <!-- 极客字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* 🎨 定义主题变量 */
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #1a1a1a;
+            --text-muted: #666;
+            --card-bg: radial-gradient(circle at center, rgba(240,240,240,0.9), rgba(255,255,255,0.95));
+            --card-border: rgba(0, 0, 0, 0.1);
+            --card-hover: rgba(0, 0, 0, 0.8);
+            --vignette: radial-gradient(circle, transparent 20%, rgba(248,249,250,0.9) 100%);
+            --particle-color: "rgba(0, 0, 0, 0.6)";
+            --particle-tail: "rgba(248, 249, 250, 0.1)";
+            --toggle-x: calc(100% - 30px);
+            --toggle-y: 30px;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --text-muted: #777;
+            --card-bg: radial-gradient(circle at center, rgba(20,20,20,0.9), rgba(5,5,5,0.95));
+            --card-border: rgba(255, 255, 255, 0.15);
+            --card-hover: rgba(255, 255, 255, 0.8);
+            --vignette: radial-gradient(circle, transparent 10%, #000 95%);
+            --particle-color: "rgba(255, 255, 255, 0.7)";
+            --particle-tail: "rgba(0, 0, 0, 0.04)";
+            --toggle-x: calc(100% - 30px);
+            --toggle-y: 30px;
+        }
+
+        /* 🌟 水波纹过渡动画 */
+        ::view-transition-old(root) { animation: none; z-index: -1; }
+        ::view-transition-new(root) { animation: theme-reveal 0.5s ease-out; }
+        @keyframes theme-reveal {
+            from { clip-path: circle(0% at var(--toggle-x) var(--toggle-y)); }
+            to { clip-path: circle(150% at var(--toggle-x) var(--toggle-y)); }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            width: 100%; height: 100%;
+            background: var(--bg-color);
+            overflow: hidden;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-color);
+            -webkit-tap-highlight-color: transparent; 
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        #canvas-bg {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%; z-index: 1;
+        }
+
+        /* 边缘暗角 */
+        .vignette {
+            position: absolute; z-index: 2; width: 100%; height: 100%;
+            background: var(--vignette);
+            pointer-events: none;
+            transition: background 0.3s;
+        }
+
+        /* 内容容器 */
+        .content-wrapper {
+            position: relative; z-index: 3; width: 100%; height: 100%;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding-bottom: 120px;
+        }
+
+        /* 主标题 */
+        .main-title {
+            font-size: 2rem; font-weight: 700; letter-spacing: 6px;
+            margin-bottom: 4rem; text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(128,128,128,0.2);
+            text-align: center;
+        }
+
+        /* 矩阵容器 */
+        .matrix-container {
+            display: flex; gap: 4rem; justify-content: center; align-items: center;
+            margin-bottom: 2rem; 
+        }
+
+        /* 菱形卡片 */
+        .entity {
+            position: relative; width: 10rem; height: 10rem;
+            background: var(--card-bg);
+            border: 2px solid var(--card-border);
+            border-radius: 4px;
+            transform: rotate(45deg);
+            animation: float 8s ease-in-out infinite;
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.3s, border-color 0.3s;
+            text-decoration: none; display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        /* 内部文字反向旋转保持正立 */
+        .inner-content {
+            transform: rotate(-45deg);
+            display: flex; flex-direction: column; align-items: center; text-align: center;
+            width: 100%;
+        }
+
+        .entity .icon { font-size: 2.5rem; margin-bottom: 8px; transition: transform 0.4s ease; }
+        .entity .title { font-size: 1rem; font-weight: 700; color: var(--text-color); margin-bottom: 4px; }
+        .entity .desc { font-size: 0.75rem; color: var(--text-muted); }
+
+        /* Hover 特效 (PC) */
+        .entity:hover {
+            border-color: var(--card-hover);
+            box-shadow: 0 0 40px rgba(128,128,128,0.2), inset 0 0 20px rgba(128,128,128,0.1);
+            z-index: 10;
+        }
+        .entity:hover .icon { transform: scale(1.2); }
+
+        /* 点击激活特效 (移动端) */
+        .entity:active {
+            border-color: var(--card-hover);
+            transform: scale(0.95) rotate(45deg);
+        }
+
+        .entity:nth-child(2n) { animation-delay: -4s; }
+
+        /* 浮动动画 */
+        @keyframes float {
+            0% { transform: translateY(0) rotate(45deg); }
+            50% { transform: translateY(-15px) rotate(45deg); }
+            100% { transform: translateY(0) rotate(45deg); }
+        }
+
+        /* 🌟 右上角悬浮控制按钮 */
+        .header-actions {
+            position: fixed; top: 15px; right: 15px; z-index: 1000;
+            display: flex; gap: 8px;
+        }
+        .action-btn {
+            display: flex; align-items: center; justify-content: center;
+            min-width: 36px; height: 36px; padding: 0 10px;
+            background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px;
+            cursor: pointer; color: var(--text-color); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600;
+            transition: all 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .action-btn:hover { background: var(--card-border); }
+
+        .theme-toggle { position: relative; width: 36px; padding: 0; }
+        .theme-toggle svg { position: absolute; width: 18px; height: 18px; transition: all 0.3s; }
+        .theme-toggle .icon-sun { opacity: 1; transform: scale(1); }
+        .theme-toggle .icon-moon { opacity: 0; transform: scale(0.5); }
+        [data-theme="dark"] .theme-toggle .icon-sun { opacity: 0; transform: scale(0.5); }
+        [data-theme="dark"] .theme-toggle .icon-moon { opacity: 1; transform: scale(1); }
+
+        /* 🌟 极客联系方式 */
+        .contact-area {
+            position: fixed; bottom: 65px; left: 0; width: 100%;
+            display: flex; justify-content: center; align-items: center; gap: 10px;
+            z-index: 10;
+        }
+        .wechat-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 14px; background: var(--card-bg);
+            border: 1px solid var(--card-border); border-radius: 20px;
+            font-size: 12px; color: var(--text-muted); cursor: pointer;
+            transition: all 0.3s;
+        }
+        .wechat-btn:hover { background: var(--card-border); color: var(--text-color); }
+
+        /* 🌟 极客页脚 */
+        .footer {
+            position: fixed; bottom: 20px; left: 0; width: 100%;
+            text-align: center; font-size: 11px; color: var(--text-muted);
+            z-index: 10; line-height: 1.6;
+        }
+        .footer a { color: var(--text-color); text-decoration: none; transition: color 0.3s; font-weight: bold; }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            .main-title { font-size: 1.6rem; margin-bottom: 3rem; letter-spacing: 4px; }
+            .matrix-container { gap: 2rem; flex-wrap: wrap; padding: 0 10px; margin-bottom: 1rem; }
+            .entity { width: 7rem; height: 7rem; } 
+            .entity .icon { font-size: 1.6rem; }
+            .entity .title { font-size: 0.8rem; }
+            .entity .desc { font-size: 0.6rem; }
+            .footer { font-size: 10px; bottom: 15px; }
+            .contact-area { bottom: 55px; }
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="canvas-bg"></canvas>
+    <div class="vignette"></div>
+
+    <!-- 右上角控制按钮 -->
+    <div class="header-actions">
+        <button id="lang-toggle" class="action-btn">EN</button>
+        <button class="theme-toggle action-btn" id="theme-btn" type="button">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="main-title" data-i18n="title">Geek Base</div>
+
+        <div class="matrix-container">
+            <!-- 卡片 1：导航 -->
+            <a href="https://nav.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">🌐</div>
+                    <div class="title">Geek Nav</div>
+                    <div class="desc" data-i18n="nav">极客导航</div>
+                </div>
+            </a>
+
+            <!-- 卡片 2：排行 -->
+            <a href="https://grank.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">📊</div>
+                    <div class="title">GitHub Rank</div>
+                    <div class="desc" data-i18n="rank">开源排行</div>
+                </div>
+            </a>
+            
+            <!-- 卡片 3：留言本 -->
+            <a href="https://gb.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">✍️</div>
+                    <div class="title">Guestbook</div>
+                    <div class="desc" data-i18n="guestbook">极客留言</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- 极客联系方式 -->
+    <div class="contact-area">
+        <div class="wechat-btn" id="wechat-btn" data-wechat="Work Space Pro">
+            <span>💬</span> <span data-i18n="wechatText">微信: Work Space Pro</span>
+        </div>
+    </div>
+
+    <!-- 极客页脚 -->
+    <footer class="footer">
+        <p>&copy; 2024 <a href="https://gb.ooo">Geek Base (gb.ooo)</a>. All rights reserved.</p>
+        <p style="margin-top:4px; opacity:0.7;">Powered by Cloudflare Pages</p>
+    </footer>
+
+    <script>
+        // ======= 1. 初始化主题与语言 =======
+        (function(){
+            var t = localStorage.getItem("gb-theme");
+            if(t === "dark" || t === "light") { document.documentElement.setAttribute("data-theme", t); }
+            else { document.documentElement.setAttribute("data-theme", "dark"); } // 默认暗色极客风
+        })();
+
+        let currentLang = localStorage.getItem('gb-lang') || 'zh';
+        
+        const i18n = {
+            zh: { title: "Geek Base", nav: "极客导航", rank: "开源排行", guestbook: "极客留言", wechatText: "微信: Work Space Pro" },
+            en: { title: "Geek Base", nav: "Geek Nav", rank: "GitHub Rank", guestbook: "Guestbook", wechatText: "WeChat: Work Space Pro" }
+        };
+
+        function applyLang() {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[currentLang][key]) {
+                    el.textContent = i18n[currentLang][key];
+                }
+            });
+            document.getElementById('lang-toggle').textContent = currentLang === 'zh' ? 'EN' : '中';
+        }
+
+        // 语言切换
+        document.getElementById('lang-toggle').addEventListener('click', () => {
+            currentLang = currentLang === 'zh' ? 'en' : 'zh';
+            localStorage.setItem('gb-lang', currentLang);
+            applyLang();
+        });
+
+        // ======= 2. 主题切换 (带水波纹) =======
+        const themeBtn = document.getElementById('theme-btn');
+        themeBtn.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const next = isDark ? 'light' : 'dark';
+            const rect = themeBtn.getBoundingClientRect();
+            
+            document.documentElement.style.setProperty('--toggle-x', (rect.left + rect.width / 2) + 'px');
+            document.documentElement.style.setProperty('--toggle-y', (rect.top + rect.height / 2) + 'px');
+            
+            function apply(){
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('gb-theme', next);
+            }
+            if (document.startViewTransition) {
+                document.startViewTransition(apply);
+            } else {
+                apply();
+            }
+        });
+
+        // ======= 3. 粒子背景动画 (自适应颜色) =======
+        const canvas = document.getElementById('canvas-bg');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        const directions = [{ x: 1, y: 1 }, { x: -1, y: -1 }, { x: 1, y: -1 }, { x: -1, y: 1 }];
+
+        class Mote {
+            constructor() { this.reset(true); }
+            reset(randomPos = false) {
+                this.x = randomPos ? Math.random() * width : (Math.random() > 0.5 ? 0 : width);
+                this.y = randomPos ? Math.random() * height : Math.random() * height;
+                const dir = directions[Math.floor(Math.random() * directions.length)];
+                const speed = 0.2 + Math.random() * 0.8; 
+                this.vx = dir.x * speed;
+                this.vy = dir.y * speed;
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                if (this.x < -50 || this.x > width + 50 || this.y < -50 || this.y > height + 50) this.reset();
+            }
+            draw(pColor) {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, 1.2, 0, Math.PI * 2);
+                ctx.fillStyle = pColor;
+                ctx.fill();
+                ctx.closePath();
+            }
+        }
+
+        const particles = [];
+        for (let i = 0; i < 120; i++) particles.push(new Mote());
+
+        function animate() {
+            // 动态获取 CSS 变量中的颜色
+            const rootStyle = getComputedStyle(document.documentElement);
+            const pColor = rootStyle.getPropertyValue('--particle-color').trim() || "rgba(255, 255, 255, 0.7)";
+            const pTail = rootStyle.getPropertyValue('--particle-tail').trim() || "rgba(0, 0, 0, 0.04)";
+
+            ctx.fillStyle = pTail; 
+            ctx.fillRect(0, 0, width, height);
+            
+            particles.forEach(p => {
+                p.update();
+                p.draw(pColor);
+            });
+            requestAnimationFrame(animate);
+        }
+
+        // 一键复制微信
+        const wechatBtn = document.getElementById('wechat-btn');
+        wechatBtn.addEventListener('click', function() {
+            const wechatId = this.getAttribute('data-wechat');
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(wechatId).then(() => {
+                    const originalHtml = this.innerHTML;
+                    this.innerHTML = '<span>✅</span> ' + (currentLang === 'zh' ? '已复制' : 'Copied');
+                    setTimeout(() => { this.innerHTML = originalHtml; }, 2000);
+                });
+            } else {
+                alert((currentLang === 'zh' ? '我的微信号是：' : 'My WeChat is: ') + wechatId);
+            }
+        });
+
+        // 启动
+        applyLang();
+        animate();
+    </script>
+</body>
+</html>
