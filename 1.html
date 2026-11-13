@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -24,8 +24,7 @@
             --card-border: rgba(0, 0, 0, 0.1);
             --card-hover: rgba(0, 0, 0, 0.8);
             --vignette: radial-gradient(circle, transparent 20%, rgba(248,249,250,0.9) 100%);
-            --particle-color: "rgba(0, 0, 0, 0.6)";
-            --particle-tail: "rgba(248, 249, 250, 0.1)";
+            
             --toggle-x: calc(100% - 30px);
             --toggle-y: 30px;
         }
@@ -38,8 +37,7 @@
             --card-border: rgba(255, 255, 255, 0.15);
             --card-hover: rgba(255, 255, 255, 0.8);
             --vignette: radial-gradient(circle, transparent 10%, #000 95%);
-            --particle-color: "rgba(255, 255, 255, 0.7)";
-            --particle-tail: "rgba(0, 0, 0, 0.04)";
+            
             --toggle-x: calc(100% - 30px);
             --toggle-y: 30px;
         }
@@ -209,7 +207,7 @@
 
     <!-- 右上角控制按钮 -->
     <div class="header-actions">
-        <button id="lang-toggle" class="action-btn">EN</button>
+        <button id="lang-toggle" class="action-btn">中</button>
         <button class="theme-toggle action-btn" id="theme-btn" type="button">
             <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
             <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
@@ -225,7 +223,7 @@
                 <div class="inner-content">
                     <div class="icon">🌐</div>
                     <div class="title">Geek Nav</div>
-                    <div class="desc" data-i18n="nav">极客导航</div>
+                    <div class="desc" data-i18n="nav">Geek Nav</div>
                 </div>
             </a>
 
@@ -234,7 +232,7 @@
                 <div class="inner-content">
                     <div class="icon">📊</div>
                     <div class="title">GitHub Rank</div>
-                    <div class="desc" data-i18n="rank">开源排行</div>
+                    <div class="desc" data-i18n="rank">Open Source</div>
                 </div>
             </a>
             
@@ -243,7 +241,7 @@
                 <div class="inner-content">
                     <div class="icon">✍️</div>
                     <div class="title">Guestbook</div>
-                    <div class="desc" data-i18n="guestbook">极客留言</div>
+                    <div class="desc" data-i18n="guestbook">Guestbook</div>
                 </div>
             </a>
         </div>
@@ -252,7 +250,7 @@
     <!-- 极客联系方式 -->
     <div class="contact-area">
         <div class="wechat-btn" id="wechat-btn" data-wechat="Work Space Pro">
-            <span>💬</span> <span data-i18n="wechatText">微信: Work Space Pro</span>
+            <span>💬</span> <span data-i18n="wechatText">WeChat: Work Space Pro</span>
         </div>
     </div>
 
@@ -263,18 +261,31 @@
     </footer>
 
     <script>
-        // ======= 1. 初始化主题与语言 =======
+        // ======= 1. 初始化主题与语言 (默认英文) =======
         (function(){
             var t = localStorage.getItem("gb-theme");
             if(t === "dark" || t === "light") { document.documentElement.setAttribute("data-theme", t); }
-            else { document.documentElement.setAttribute("data-theme", "dark"); } // 默认暗色极客风
+            else { document.documentElement.setAttribute("data-theme", "dark"); } // 默认极客暗色
         })();
 
-        let currentLang = localStorage.getItem('gb-lang') || 'zh';
+        // 🌟 默认语言设为 'en'
+        let currentLang = localStorage.getItem('gb-lang') || 'en';
         
         const i18n = {
-            zh: { title: "Geek Base", nav: "极客导航", rank: "开源排行", guestbook: "极客留言", wechatText: "微信: Work Space Pro" },
-            en: { title: "Geek Base", nav: "Geek Nav", rank: "GitHub Rank", guestbook: "Guestbook", wechatText: "WeChat: Work Space Pro" }
+            zh: { 
+                title: "Geek Base", 
+                nav: "极客导航", 
+                rank: "开源排行", 
+                guestbook: "极客留言", 
+                wechatText: "微信: Work Space Pro" 
+            },
+            en: { 
+                title: "Geek Base", 
+                nav: "Geek Nav", 
+                rank: "Open Source", 
+                guestbook: "Guestbook", 
+                wechatText: "WeChat: Work Space Pro" 
+            }
         };
 
         function applyLang() {
@@ -284,6 +295,7 @@
                     el.textContent = i18n[currentLang][key];
                 }
             });
+            // 如果当前是英文，按钮显示“中”；如果是中文，按钮显示“EN”
             document.getElementById('lang-toggle').textContent = currentLang === 'zh' ? 'EN' : '中';
         }
 
@@ -315,7 +327,7 @@
             }
         });
 
-        // ======= 3. 粒子背景动画 (自适应颜色) =======
+        // ======= 3. 彩色流星粒子背景动画 =======
         const canvas = document.getElementById('canvas-bg');
         const ctx = canvas.getContext('2d');
         let width, height;
@@ -329,45 +341,73 @@
 
         const directions = [{ x: 1, y: 1 }, { x: -1, y: -1 }, { x: 1, y: -1 }, { x: -1, y: 1 }];
 
-        class Mote {
-            constructor() { this.reset(true); }
+        class Meteor {
+            constructor() {
+                this.hue = Math.random() * 360; // 随机色相
+                this.reset(true);
+            }
             reset(randomPos = false) {
                 this.x = randomPos ? Math.random() * width : (Math.random() > 0.5 ? 0 : width);
                 this.y = randomPos ? Math.random() * height : Math.random() * height;
+                
+                this.prevX = this.x;
+                this.prevY = this.y;
+
                 const dir = directions[Math.floor(Math.random() * directions.length)];
-                const speed = 0.2 + Math.random() * 0.8; 
+                const speed = 0.5 + Math.random() * 1.5; // 随机速度
                 this.vx = dir.x * speed;
                 this.vy = dir.y * speed;
+                this.lineWidth = 0.5 + Math.random() * 1.5; // 随机粗细
             }
             update() {
+                this.prevX = this.x;
+                this.prevY = this.y;
                 this.x += this.vx;
                 this.y += this.vy;
-                if (this.x < -50 || this.x > width + 50 || this.y < -50 || this.y > height + 50) this.reset();
+                if (this.x < -50 || this.x > width + 50 || this.y < -50 || this.y > height + 50) {
+                    this.hue = Math.random() * 360; // 飞出屏幕后换个颜色
+                    this.reset();
+                }
             }
-            draw(pColor) {
+            draw(isDark) {
+                const saturation = 80;
+                const lightness = isDark ? 70 : 45; 
+                const color = `hsl(${this.hue}, ${saturation}%, ${lightness}%)`;
+
                 ctx.beginPath();
-                ctx.arc(this.x, this.y, 1.2, 0, Math.PI * 2);
-                ctx.fillStyle = pColor;
-                ctx.fill();
-                ctx.closePath();
+                ctx.moveTo(this.prevX, this.prevY);
+                ctx.lineTo(this.x, this.y);
+                
+                ctx.strokeStyle = color;
+                ctx.lineWidth = this.lineWidth;
+                ctx.lineCap = 'round';
+                
+                // 发光特效
+                ctx.shadowBlur = isDark ? 8 : 3;
+                ctx.shadowColor = color;
+
+                ctx.stroke();
+                ctx.shadowBlur = 0; 
             }
         }
 
         const particles = [];
-        for (let i = 0; i < 120; i++) particles.push(new Mote());
+        for (let i = 0; i < 150; i++) {
+            particles.push(new Meteor());
+        }
 
         function animate() {
-            // 动态获取 CSS 变量中的颜色
-            const rootStyle = getComputedStyle(document.documentElement);
-            const pColor = rootStyle.getPropertyValue('--particle-color').trim() || "rgba(255, 255, 255, 0.7)";
-            const pTail = rootStyle.getPropertyValue('--particle-tail').trim() || "rgba(0, 0, 0, 0.04)";
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            
+            // 拖尾残影
+            const tailColor = isDark ? "rgba(0, 0, 0, 0.06)" : "rgba(248, 249, 250, 0.08)";
 
-            ctx.fillStyle = pTail; 
+            ctx.fillStyle = tailColor; 
             ctx.fillRect(0, 0, width, height);
             
             particles.forEach(p => {
                 p.update();
-                p.draw(pColor);
+                p.draw(isDark);
             });
             requestAnimationFrame(animate);
         }
