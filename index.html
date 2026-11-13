@@ -23,7 +23,6 @@
             overflow: hidden;
             font-family: 'JetBrains Mono', monospace;
             color: #fff;
-            /* 优化移动端触摸手感 */
             -webkit-tap-highlight-color: transparent; 
         }
 
@@ -43,6 +42,7 @@
         .content-wrapper {
             position: relative; z-index: 3; width: 100%; height: 100%;
             display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding-bottom: 120px; /* 给底部的联系方式和页脚留出空间 */
         }
 
         /* 主标题 */
@@ -56,7 +56,7 @@
         /* 矩阵容器 */
         .matrix-container {
             display: flex; gap: 4rem; justify-content: center; align-items: center;
-            margin-bottom: 3rem; /* 给底部页脚留空间 */
+            margin-bottom: 2rem; 
         }
 
         /* 菱形卡片 */
@@ -65,8 +65,8 @@
             background: radial-gradient(circle at center, rgba(20,20,20,0.9), rgba(5,5,5,0.95));
             border: 2px solid rgba(255, 255, 255, 0.15);
             border-radius: 4px;
-            transform: rotate(45deg); /* 旋转成菱形 */
-            animation: float 8s ease-in-out infinite; /* 浮动变慢 */
+            transform: rotate(45deg);
+            animation: float 8s ease-in-out infinite;
             transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
             text-decoration: none; display: flex; justify-content: center; align-items: center;
             box-shadow: 0 0 30px rgba(0,0,0,0.8);
@@ -96,7 +96,7 @@
         .entity:active {
             border-color: #fff;
             box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
-            transform: scale(0.95) rotate(45deg); /* 按下时缩进 */
+            transform: scale(0.95) rotate(45deg);
         }
 
         .entity:nth-child(2n) { animation-delay: -4s; }
@@ -106,6 +106,25 @@
             0% { transform: translateY(0) rotate(45deg); }
             50% { transform: translateY(-15px) rotate(45deg); }
             100% { transform: translateY(0) rotate(45deg); }
+        }
+
+        /* 🌟 极客联系方式 */
+        .contact-area {
+            position: fixed; bottom: 65px; left: 0; width: 100%;
+            display: flex; justify-content: center; align-items: center; gap: 10px;
+            z-index: 10;
+        }
+        .wechat-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 14px; background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.15); border-radius: 20px;
+            font-size: 12px; color: #ccc; cursor: pointer;
+            transition: all 0.3s;
+        }
+        .wechat-btn:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.3);
+            color: #fff;
         }
 
         /* 🌟 极客页脚 */
@@ -120,13 +139,13 @@
         /* 移动端适配 */
         @media (max-width: 600px) {
             .main-title { font-size: 1.6rem; margin-bottom: 3rem; letter-spacing: 4px; }
-            /* 手机端 3 个卡片会放不下，这里改成稍微减小间距并允许换行 */
-            .matrix-container { gap: 2rem; flex-wrap: wrap; padding: 0 10px; }
+            .matrix-container { gap: 2rem; flex-wrap: wrap; padding: 0 10px; margin-bottom: 1rem; }
             .entity { width: 7rem; height: 7rem; } 
             .entity .icon { font-size: 1.6rem; }
             .entity .title { font-size: 0.8rem; }
             .entity .desc { font-size: 0.6rem; }
             .footer { font-size: 10px; bottom: 15px; }
+            .contact-area { bottom: 55px; }
         }
     </style>
 </head>
@@ -157,7 +176,7 @@
                 </div>
             </a>
             
-            <!-- 🌟 卡片 3：留言本 (已添加) -->
+            <!-- 卡片 3：留言本 -->
             <a href="https://gb.gb.ooo" class="entity">
                 <div class="inner-content">
                     <div class="icon">✍️</div>
@@ -168,6 +187,13 @@
         </div>
     </div>
 
+    <!-- 🌟 极客联系方式（点击一键复制） -->
+    <div class="contact-area">
+        <div class="wechat-btn" id="wechat-btn" data-wechat="Work Space Pro" title="点击复制微信号">
+            <span>💬</span> 微信: Work Space Pro
+        </div>
+    </div>
+
     <!-- 极客页脚 -->
     <footer class="footer">
         <p>&copy; 2024 <a href="https://gb.ooo">Geek Base (gb.ooo)</a>. All rights reserved.</p>
@@ -175,6 +201,7 @@
     </footer>
 
     <script>
+        // 粒子背景动画
         const canvas = document.getElementById('canvas-bg');
         const ctx = canvas.getContext('2d');
         let width, height;
@@ -194,7 +221,6 @@
             constructor() {
                 this.reset(true);
             }
-            
             reset(randomPos = false) {
                 if (randomPos) {
                     this.x = Math.random() * width;
@@ -203,22 +229,18 @@
                     this.x = Math.random() > 0.5 ? 0 : width;
                     this.y = Math.random() * height;
                 }
-                
                 const dir = directions[Math.floor(Math.random() * directions.length)];
                 const speed = 0.2 + Math.random() * 0.8; 
                 this.vx = dir.x * speed;
                 this.vy = dir.y * speed;
             }
-
             update() {
                 this.x += this.vx;
                 this.y += this.vy;
-
                 if (this.x < -50 || this.x > width + 50 || this.y < -50 || this.y > height + 50) {
                     this.reset();
                 }
             }
-
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, 1.2, 0, Math.PI * 2);
@@ -236,16 +258,40 @@
         function animate() {
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)"; 
             ctx.fillRect(0, 0, width, height);
-
             particles.forEach(p => {
                 p.update();
                 p.draw();
             });
-
             requestAnimationFrame(animate);
         }
-
         animate();
+
+        // 🌟 一键复制微信号逻辑
+        const wechatBtn = document.getElementById('wechat-btn');
+        if (wechatBtn) {
+            wechatBtn.addEventListener('click', function() {
+                const wechatId = this.getAttribute('data-wechat');
+                // 使用 Clipboard API 复制
+                if (navigator.clipboard && window.isSecureContext) {
+                    navigator.clipboard.writeText(wechatId).then(() => {
+                        const originalHtml = this.innerHTML;
+                        this.innerHTML = '<span>✅</span> 微信号已复制';
+                        this.style.borderColor = '#10b981'; // 绿色反馈
+                        this.style.color = '#10b981';
+                        setTimeout(() => {
+                            this.innerHTML = originalHtml;
+                            this.style.borderColor = 'rgba(255,255,255,0.15)';
+                            this.style.color = '#ccc';
+                        }, 2000);
+                    }).catch(err => {
+                        alert('复制失败，请手动记录：' + wechatId);
+                    });
+                } else {
+                    // 降级方案 (针对部分老旧手机浏览器)
+                    alert('我的微信号是：' + wechatId);
+                }
+            });
+        }
     </script>
 </body>
 </html>
