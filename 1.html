@@ -15,28 +15,30 @@
     <style>
         /* 🎨 定义主题变量 */
         :root {
-            --bg-color: #f0f4f8;
+            --bg-color: #f4f6f8; /* 背景稍微带一点点灰蓝，显高级 */
             --text-color: #1a1a1a;
             --text-muted: #555;
-            /* 🌟 毛玻璃卡片变量 */
-            --card-bg: rgba(255, 255, 255, 0.4);
-            --card-border: rgba(255, 255, 255, 0.8);
-            --card-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
-            --vignette: radial-gradient(circle, transparent 30%, rgba(240,244,248,0.8) 100%);
+            
+            /* 🌟 亮色模式：极弱色差，磨砂玻璃感 */
+            --card-bg: rgba(255, 255, 255, 0.25); 
+            --card-border: rgba(0, 0, 0, 0.04); /* 极淡的边框 */
+            --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05); /* 阴影极其轻柔 */
+            --vignette: radial-gradient(circle, transparent 30%, rgba(244,246,248,0.8) 100%);
             
             --toggle-x: calc(100% - 30px);
             --toggle-y: 30px;
         }
 
         [data-theme="dark"] {
-            --bg-color: #000000;
+            --bg-color: #0a0a0a;
             --text-color: #ffffff;
             --text-muted: #888;
-            /* 🌟 暗色毛玻璃卡片变量 */
-            --card-bg: rgba(20, 20, 20, 0.4);
-            --card-border: rgba(255, 255, 255, 0.15);
-            --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
-            --vignette: radial-gradient(circle, transparent 10%, #000 95%);
+            
+            /* 🌟 暗色模式：极弱色差，微光质感 */
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            --vignette: radial-gradient(circle, transparent 10%, #0a0a0a 95%);
             
             --toggle-x: calc(100% - 30px);
             --toggle-y: 30px;
@@ -86,7 +88,7 @@
         .main-title {
             font-size: 2rem; font-weight: 700; letter-spacing: 6px;
             margin-bottom: 4rem; text-transform: uppercase;
-            text-shadow: 0 0 20px rgba(128,128,128,0.2);
+            text-shadow: 0 0 20px rgba(128,128,128,0.1);
             text-align: center;
         }
 
@@ -96,15 +98,14 @@
             margin-bottom: 2rem; 
         }
 
-        /* 🌟 核心升级：毛玻璃菱形卡片 */
+        /* 🌟 核心升级：极简微色差毛玻璃卡片 */
         .entity {
             position: relative; width: 10rem; height: 10rem;
             background: var(--card-bg);
-            /* 毛玻璃模糊效果 */
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(16px); /* 保持极强的毛玻璃效果 */
+            -webkit-backdrop-filter: blur(16px);
             border: 1px solid var(--card-border);
-            border-radius: 8px;
+            border-radius: 12px;
             transform: rotate(45deg);
             animation: float 8s ease-in-out infinite;
             transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1), background 0.3s, border-color 0.3s;
@@ -125,13 +126,13 @@
 
         /* Hover 特效 (PC) */
         .entity:hover {
-            border-color: rgba(128, 128, 128, 0.5);
-            box-shadow: 0 15px 45px rgba(128,128,128,0.2);
+            border-color: rgba(128, 128, 128, 0.2);
+            background: rgba(255, 255, 255, 0.4); /* 悬浮时稍微亮一点 */
+            box-shadow: 0 15px 45px rgba(128,128,128,0.1);
             z-index: 10;
-            background: rgba(255, 255, 255, 0.6);
         }
         [data-theme="dark"] .entity:hover {
-            background: rgba(40, 40, 40, 0.6);
+            background: rgba(255, 255, 255, 0.08);
         }
         .entity:hover .icon { transform: scale(1.15); }
 
@@ -181,14 +182,15 @@
         }
         .wechat-btn {
             display: inline-flex; align-items: center; gap: 6px;
-            padding: 6px 14px; background: var(--card-bg);
+            padding: 8px 16px; background: var(--card-bg);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
             border: 1px solid var(--card-border); border-radius: 20px;
-            font-size: 12px; color: var(--text-muted); cursor: pointer;
-            transition: all 0.3s;
+            font-size: 12px; color: var(--text-color); cursor: pointer;
+            transition: all 0.3s; box-shadow: var(--card-shadow);
         }
-        .wechat-btn:hover { background: var(--card-border); color: var(--text-color); }
+        .wechat-btn:hover { background: rgba(255, 255, 255, 0.4); }
+        [data-theme="dark"] .wechat-btn:hover { background: rgba(255, 255, 255, 0.08); }
 
         /* 🌟 极客页脚 */
         .footer {
@@ -350,10 +352,10 @@
                 this.prevY = this.y;
 
                 const dir = directions[Math.floor(Math.random() * directions.length)];
-                const speed = 0.4 + Math.random() * 1.2; 
+                const speed = 0.5 + Math.random() * 1.2; 
                 this.vx = dir.x * speed;
                 this.vy = dir.y * speed;
-                this.lineWidth = 0.5 + Math.random() * 1.5;
+                this.lineWidth = 1.0 + Math.random() * 1.5; 
             }
             update() {
                 this.prevX = this.x;
@@ -366,9 +368,10 @@
                 }
             }
             draw(isDark) {
-                const saturation = isDark ? 80 : 60; // 亮色模式下颜色柔和一点
-                const lightness = isDark ? 70 : 60; 
-                const alpha = isDark ? 1 : 0.5; // 亮色模式下流星半透明
+                // 为了匹配“微弱色差”的极简风，流星的饱和度调低，让它更像环境光
+                const saturation = isDark ? 70 : 40; 
+                const lightness = isDark ? 65 : 65; 
+                const alpha = isDark ? 0.8 : 0.4; 
                 const color = `hsla(${this.hue}, ${saturation}%, ${lightness}%, ${alpha})`;
 
                 ctx.beginPath();
@@ -379,9 +382,8 @@
                 ctx.lineWidth = this.lineWidth;
                 ctx.lineCap = 'round';
                 
-                // 只有暗色模式下发光，亮色模式下不加阴影更干净
                 if (isDark) {
-                    ctx.shadowBlur = 8;
+                    ctx.shadowBlur = 6;
                     ctx.shadowColor = color;
                 }
 
@@ -398,9 +400,8 @@
         function animate() {
             const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
             
-            // 亮色模式底底色是 #f0f4f8 -> rgb(240,244,248)
-            // 暗色模式底底色是 #000000 -> rgb(0,0,0)
-            const tailColor = isDark ? "rgba(0, 0, 0, 0.08)" : "rgba(240, 244, 248, 0.15)";
+            // 使用与背景相同的基色做残影，保证背景底色永远纯净
+            const tailColor = isDark ? "rgba(10, 10, 10, 0.1)" : "rgba(244, 246, 248, 0.15)";
 
             ctx.fillStyle = tailColor; 
             ctx.fillRect(0, 0, width, height);
