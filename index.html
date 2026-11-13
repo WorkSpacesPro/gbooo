@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google" content="notranslate">
+    
+    <title>Geek Base | gb.ooo</title>
+    <meta name="description" content="Geek Base - 极客基地。汇集极客导航、开源排行与各类数字实验。">
+    
+    <!-- 🚫 屏蔽搜索引擎收录 -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    
+    <!-- 极客字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            width: 100%; height: 100%;
+            background: #000;
+            overflow: hidden;
+            font-family: 'JetBrains Mono', monospace;
+            color: #fff;
+            /* 优化移动端触摸手感 */
+            -webkit-tap-highlight-color: transparent; 
+        }
+
+        #canvas-bg {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%; z-index: 1;
+        }
+
+        /* 边缘暗角，让视觉聚焦 */
+        .vignette {
+            position: absolute; z-index: 2; width: 100%; height: 100%;
+            background: radial-gradient(circle, transparent 10%, #000 95%);
+            pointer-events: none;
+        }
+
+        /* 内容容器 */
+        .content-wrapper {
+            position: relative; z-index: 3; width: 100%; height: 100%;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+
+        /* 主标题 */
+        .main-title {
+            font-size: 2rem; font-weight: 700; letter-spacing: 6px;
+            margin-bottom: 4rem; text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255,255,255,0.2);
+            text-align: center;
+        }
+
+        /* 矩阵容器 */
+        .matrix-container {
+            display: flex; gap: 4rem; justify-content: center; align-items: center;
+            margin-bottom: 3rem; /* 给底部页脚留空间 */
+        }
+
+        /* 菱形卡片 */
+        .entity {
+            position: relative; width: 10rem; height: 10rem;
+            background: radial-gradient(circle at center, rgba(20,20,20,0.9), rgba(5,5,5,0.95));
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            transform: rotate(45deg); /* 旋转成菱形 */
+            animation: float 8s ease-in-out infinite; /* 浮动变慢 */
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            text-decoration: none; display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.8);
+        }
+
+        /* 内部文字反向旋转保持正立 */
+        .inner-content {
+            transform: rotate(-45deg);
+            display: flex; flex-direction: column; align-items: center; text-align: center;
+            width: 100%;
+        }
+
+        .entity .icon { font-size: 2.5rem; margin-bottom: 8px; transition: transform 0.4s ease; }
+        .entity .title { font-size: 1rem; font-weight: 700; color: #ddd; margin-bottom: 4px; }
+        .entity .desc { font-size: 0.75rem; color: #777; }
+
+        /* Hover 特效 (PC) */
+        .entity:hover {
+            border-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 40px rgba(255, 255, 255, 0.2), inset 0 0 20px rgba(255,255,255,0.1);
+            z-index: 10;
+        }
+        .entity:hover .title { color: #fff; }
+        .entity:hover .icon { transform: scale(1.2); }
+
+        /* 点击激活特效 (移动端) */
+        .entity:active {
+            border-color: #fff;
+            box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+            transform: scale(0.95) rotate(45deg); /* 按下时缩进 */
+        }
+
+        .entity:nth-child(2n) { animation-delay: -4s; }
+
+        /* 浮动动画 */
+        @keyframes float {
+            0% { transform: translateY(0) rotate(45deg); }
+            50% { transform: translateY(-15px) rotate(45deg); }
+            100% { transform: translateY(0) rotate(45deg); }
+        }
+
+        /* 🌟 极客页脚 */
+        .footer {
+            position: fixed; bottom: 20px; left: 0; width: 100%;
+            text-align: center; font-size: 11px; color: rgba(255,255,255,0.4);
+            z-index: 10; line-height: 1.6;
+        }
+        .footer a { color: rgba(255,255,255,0.7); text-decoration: none; transition: color 0.3s; font-weight: bold; }
+        .footer a:hover { color: #fff; }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            .main-title { font-size: 1.6rem; margin-bottom: 3rem; letter-spacing: 4px; }
+            /* 手机端 3 个卡片会放不下，这里改成稍微减小间距并允许换行 */
+            .matrix-container { gap: 2rem; flex-wrap: wrap; padding: 0 10px; }
+            .entity { width: 7rem; height: 7rem; } 
+            .entity .icon { font-size: 1.6rem; }
+            .entity .title { font-size: 0.8rem; }
+            .entity .desc { font-size: 0.6rem; }
+            .footer { font-size: 10px; bottom: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="canvas-bg"></canvas>
+    <div class="vignette"></div>
+
+    <div class="content-wrapper">
+        <div class="main-title">Geek Base</div>
+
+        <div class="matrix-container">
+            <!-- 卡片 1：导航 -->
+            <a href="https://nav.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">🌐</div>
+                    <div class="title">Geek Nav</div>
+                    <div class="desc">极客导航</div>
+                </div>
+            </a>
+
+            <!-- 卡片 2：排行 -->
+            <a href="https://grank.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">📊</div>
+                    <div class="title">GitHub Rank</div>
+                    <div class="desc">开源排行</div>
+                </div>
+            </a>
+            
+            <!-- 🌟 卡片 3：留言本 (已添加) -->
+            <a href="https://gb.gb.ooo" class="entity">
+                <div class="inner-content">
+                    <div class="icon">✍️</div>
+                    <div class="title">Guestbook</div>
+                    <div class="desc">极客留言</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- 极客页脚 -->
+    <footer class="footer">
+        <p>&copy; 2024 <a href="https://gb.ooo">Geek Base (gb.ooo)</a>. All rights reserved.</p>
+        <p style="margin-top:4px; opacity:0.7;">Powered by Cloudflare Pages</p>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('canvas-bg');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        const directions = [
+            { x: 1, y: 1 }, { x: -1, y: -1 }, { x: 1, y: -1 }, { x: -1, y: 1 }
+        ];
+
+        class Mote {
+            constructor() {
+                this.reset(true);
+            }
+            
+            reset(randomPos = false) {
+                if (randomPos) {
+                    this.x = Math.random() * width;
+                    this.y = Math.random() * height;
+                } else {
+                    this.x = Math.random() > 0.5 ? 0 : width;
+                    this.y = Math.random() * height;
+                }
+                
+                const dir = directions[Math.floor(Math.random() * directions.length)];
+                const speed = 0.2 + Math.random() * 0.8; 
+                this.vx = dir.x * speed;
+                this.vy = dir.y * speed;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+
+                if (this.x < -50 || this.x > width + 50 || this.y < -50 || this.y > height + 50) {
+                    this.reset();
+                }
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, 1.2, 0, Math.PI * 2);
+                ctx.fillStyle = "rgba(255, 255, 255, 0.7)";
+                ctx.fill();
+                ctx.closePath();
+            }
+        }
+
+        const particles = [];
+        for (let i = 0; i < 120; i++) {
+            particles.push(new Mote());
+        }
+
+        function animate() {
+            ctx.fillStyle = "rgba(0, 0, 0, 0.04)"; 
+            ctx.fillRect(0, 0, width, height);
+
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
