@@ -31,7 +31,7 @@ export default defineNuxtConfig({
 
   // 👇 核心修改 1：告诉网站它住在 /blog/ 路径下
   app: {
-    baseURL: '/blog/' 
+    baseURL: '/' 
   },
 
   // 👇 核心修改 2：保留你的 404 设置，并指定 Cloudflare 打包格式
