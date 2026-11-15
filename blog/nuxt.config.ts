@@ -12,6 +12,10 @@ export default defineNuxtConfig({
   colorMode: { classSuffix: '' },
 
   content: {
+    // 👇 新增：使用 Node.js 原生 SQLite，绕过 better-sqlite3 编译报错
+    experimental: {
+      sqliteConnector: 'native'
+    },
     build: {
       markdown: {
         highlight: {
