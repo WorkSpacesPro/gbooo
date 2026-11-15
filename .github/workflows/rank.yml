@@ -3,10 +3,10 @@ name: GitHub Rank
 on:
   schedule:
     - cron: "0 2 * * *"        # 每天 UTC 02:00（北京时间 10:00）跑一次
-  workflow_dispatch:            # 支持手动点按钮跑
+  workflow_dispatch:           # 支持在网页上手动点按钮跑
 
 permissions:
-  contents: write               # 允许 push 回仓库
+  contents: write              # 允许 Actions 把生成的数据提交回仓库
 
 jobs:
   build:
@@ -22,15 +22,15 @@ jobs:
         run: pip install requests
 
       - name: Run rank
-        working-directory: ./rank   # 👈 关键点：告诉它去 rank 文件夹里跑
+        working-directory: ./rank   # 👈 关键：告诉机器人进入 rank 文件夹执行
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python github_rank.py --out-md RANK.md
+        run: python github_rank.py    # 👈 关键：删掉了之前的 --out-md 参数，不会再报错了
 
       - name: Commit & push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rank/data/ rank/RANK.md
+          git add rank/data/          # 👈 只提交 rank/data 文件夹里的数据
           git commit -m "chore: update rank data $(date -u +%F)" || echo "no change"
           git push
