@@ -1,0 +1,36 @@
+name: GitHub Rank
+
+on:
+  schedule:
+    - cron: "0 2 * * *"        # 每天 UTC 02:00（北京时间 10:00）跑一次
+  workflow_dispatch:            # 支持手动点按钮跑
+
+permissions:
+  contents: write               # 允许 push 回仓库
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run rank
+        working-directory: ./rank   # 👈 关键点：告诉它去 rank 文件夹里跑
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python github_rank.py --out-md RANK.md
+
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rank/data/ rank/RANK.md
+          git commit -m "chore: update rank data $(date -u +%F)" || echo "no change"
+          git push
