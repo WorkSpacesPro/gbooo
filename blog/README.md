@@ -1,4 +1,4 @@
-[![Content Wind](https://content-wind.nuxt.space/cover.jpg)](https://content-wind.nuxt.space)
+(https://content-wind.nuxt.space)
 
 # Content Wind
 
