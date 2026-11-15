@@ -24,15 +24,20 @@ export default defineNuxtConfig({
       },
     },
   },
-  
-  // 👇 核心修改：在原来的基础上加了 routes 配置
+
+  // 👇 核心修改 1：告诉网站它住在 /blog/ 路径下
+  app: {
+    baseURL: '/blog/' 
+  },
+
+  // 👇 核心修改 2：保留你的 404 设置，并指定 Cloudflare 打包格式
   nitro: {
+    preset: 'cloudflare-pages', // 必须加，告诉系统按 Cloudflare 的格式输出
     prerender: {
       failOnError: false,
-      routes: ['/404.html'] // 👈 加上这一行，强制生成 404 页面
+      routes: ['/404.html'] // 保留你的强制生成 404 页面
     }
   },
-  // 👆 修改完毕
 
   future: {
     compatibilityVersion: 4,
