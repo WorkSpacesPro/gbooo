@@ -1,2 +1,7 @@
-name = "gboo-blog"
+name = "gboooblog"
 pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gboooblog"
+database_id = "3984da63-7e2d-441e-ae9c-954514a053b9"
