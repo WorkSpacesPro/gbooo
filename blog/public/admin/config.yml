@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: WorkSpacesPro/gbooo       # 你的 GitHub 仓库
+  branch: main                    # 你的主分支
+  base_url: https://api.netlify.com/api/v1/settings/auth   # 临时借用 Netlify 的授权代理（后面会讲）
+  # 👆 注意：上面这行是临时的，如果你自己有 Worker 代理，改成你自己的
+
+# 媒体库（图片）配置
+media_folder: "blog/public/img"   # 图片在仓库里存放的位置
+public_folder: "/blog/img"        # 网页上访问图片的路径（配合你之前的 baseURL）
+
+# 内容集合（文章列表）
+collections:
+  - name: "posts"                 # 集合名称
+    label: "博客文章"               # 在后台左侧菜单显示的名字
+    folder: "blog/content/posts"  # 文章所在的文件夹
+    create: true                  # 允许在后台新建文章
+    slug: "{{slug}}"              # 网址生成规则
+    fields:                       # 文章头部需要填写的字段
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime", required: false }
+      - { label: "描述", name: "description", widget: "text", required: false }
+      - { label: "正文", name: "body", widget: "markdown" }
