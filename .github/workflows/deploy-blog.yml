@@ -42,4 +42,4 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           cd blog
-          npx --yes wrangler@4 pages deploy dist --project-name=gboo
+          npx --yes wrangler@4 pages deploy dist
