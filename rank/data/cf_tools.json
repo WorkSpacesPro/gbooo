@@ -3,15 +3,15 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7280,
-    "forks": 5399,
+    "stars": 7281,
+    "forks": 5401,
     "language": "TypeScript"
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2202,
+    "stars": 2203,
     "forks": 141,
     "language": "TypeScript"
   },
@@ -19,7 +19,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 713,
+    "stars": 714,
     "forks": 17,
     "language": "TypeScript"
   },
@@ -91,8 +91,8 @@
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 83,
-    "forks": 33,
+    "stars": 90,
+    "forks": 35,
     "language": "TypeScript"
   },
   {
