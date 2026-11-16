@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('posts-list', () => {
-  return queryCollection('content').path('/posts').all()
+  // 核心：匹配 /posts/ 开头的所有文章
+  return queryCollection('content').where('path', 'LIKE', '/posts/%').all()
 })
 </script>
 
