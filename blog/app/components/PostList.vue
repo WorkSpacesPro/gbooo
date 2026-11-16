@@ -1,21 +1,30 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('posts-list', () => {
-  // 核心：匹配 /posts/ 开头的所有文章
   return queryCollection('content').where('path', 'LIKE', '/posts/%').all()
 })
 </script>
 
 <template>
-  <div class="flex flex-col gap-4 mt-8">
+  <div class="mt-6 border-t border-gray-200 dark:border-gray-800">
     <div v-if="posts && posts.length > 0">
-      <div v-for="post in posts" :key="post.path" class="p-4 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-blue-500 transition-colors">
-        <NuxtLink :to="post.path" class="text-xl font-bold text-blue-600 dark:text-blue-400">
+      <!-- 循环列表，使用 odd: 和 even: 实现斑马纹 -->
+      <NuxtLink
+        v-for="post in posts"
+        :key="post.path"
+        :to="post.path"
+        class="flex items-center px-2 py-4 border-b border-gray-200 dark:border-gray-800 transition-colors
+               odd:bg-white even:bg-gray-50
+               dark:odd:bg-[#111111] dark:even:bg-[#1a1a1a]
+               hover:bg-gray-100 dark:hover:bg-gray-800 group"
+      >
+        <!-- 只显示标题，去掉描述 -->
+        <span class="text-lg font-medium text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400">
           {{ post.title }}
-        </NuxtLink>
-        <p class="text-gray-500 text-sm mt-2">{{ post.description || '点击查看文章详情' }}</p>
-      </div>
+        </span>
+      </NuxtLink>
     </div>
-    <div v-else class="text-gray-500">
+    
+    <div v-else class="py-10 text-center text-gray-500">
       暂无文章。
     </div>
   </div>
