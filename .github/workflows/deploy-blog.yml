@@ -1,0 +1,48 @@
+name: Deploy Blog to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'blog/**'                  # 👈 关键：只有 blog 目录变了才触发
+      - '.github/workflows/deploy-blog.yml' # 👈 或者这个文件本身变了也触发
+  workflow_dispatch:               # 支持手动点按钮运行
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./blog # 👈 关键：默认在 blog 目录下执行命令
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'pnpm'
+          cache-dependency-path: 'blog/pnpm-lock.yaml'
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build
+        run: npx nuxi build --preset=cloudflare_pages
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=gboo
+          workingDirectory: blog
