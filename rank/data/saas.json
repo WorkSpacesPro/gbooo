@@ -3,24 +3,24 @@
     "full_name": "wasp-lang/open-saas",
     "html_url": "https://github.com/wasp-lang/open-saas",
     "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
-    "stars": 16330,
-    "forks": 1980,
+    "stars": 16358,
+    "forks": 1982,
     "language": "MDX"
   },
   {
     "full_name": "ixartz/SaaS-Boilerplate",
     "html_url": "https://github.com/ixartz/SaaS-Boilerplate",
     "description": "🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing",
-    "stars": 7493,
-    "forks": 1333,
+    "stars": 7491,
+    "forks": 1334,
     "language": "TypeScript"
   },
   {
     "full_name": "thedevdojo/wave",
     "html_url": "https://github.com/thedevdojo/wave",
     "description": "Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰",
-    "stars": 6551,
-    "forks": 910,
+    "stars": 6549,
+    "forks": 908,
     "language": "PHP"
   },
   {
@@ -43,7 +43,7 @@
     "full_name": "nextify-limited/saasfly",
     "html_url": "https://github.com/nextify-limited/saasfly",
     "description": "Your Next SaaS Template or Boilerplate ! A magic trip start with `bun create saasfly` . The more stars, the more surprises",
-    "stars": 2956,
+    "stars": 2960,
     "forks": 424,
     "language": "TypeScript"
   },
@@ -51,7 +51,7 @@
     "full_name": "scosman/CMSaasStarter",
     "html_url": "https://github.com/scosman/CMSaasStarter",
     "description": "A modern SaaS template/boilerplate built with SvelteKit, Tailwind, and Supabase. Includes marketing page, blog, subscriptions, auth, user dashboard, user settings, pricing page, and more.",
-    "stars": 2377,
+    "stars": 2378,
     "forks": 468,
     "language": "Svelte"
   }

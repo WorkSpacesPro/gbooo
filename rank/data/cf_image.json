@@ -3,32 +3,32 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27504,
-    "forks": 2338,
+    "stars": 27505,
+    "forks": 2339,
     "language": "TypeScript"
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6918,
-    "forks": 8836,
+    "stars": 6922,
+    "forks": 8842,
     "language": "JavaScript"
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4707,
-    "forks": 8845,
+    "stars": 4708,
+    "forks": 8841,
     "language": "HTML"
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3772,
-    "forks": 205,
+    "stars": 3927,
+    "forks": 204,
     "language": "Rust"
   },
   {
@@ -52,22 +52,22 @@
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
     "stars": 502,
-    "forks": 104,
+    "forks": 105,
     "language": "JavaScript"
   },
   {
     "full_name": "RoseKhlifa/Image-Studio",
     "html_url": "https://github.com/RoseKhlifa/Image-Studio",
     "description": "开源image2调用图像生成/编辑桌面客户端 · SSE 流式保活,兼容 Cloudflare 524/504 超时截断 · Wails (Go + React/TS) ·   数据 100% 本地",
-    "stars": 497,
-    "forks": 53,
+    "stars": 498,
+    "forks": 54,
     "language": "Go"
   },
   {
     "full_name": "WisdomSky/Cloudflared-web",
     "html_url": "https://github.com/WisdomSky/Cloudflared-web",
     "description": "Cloudflared-web is a docker image that packages both cloudflared cli and a simple Web UI to easily start or stop remotely-managed Cloudflare tunnel.",
-    "stars": 483,
+    "stars": 482,
     "forks": 53,
     "language": "Vue"
   },
@@ -75,7 +75,7 @@
     "full_name": "yusukebe/r2-image-worker",
     "html_url": "https://github.com/yusukebe/r2-image-worker",
     "description": "Store and Deliver images with R2 backend Cloudflare Workers.",
-    "stars": 396,
+    "stars": 397,
     "forks": 37,
     "language": "TypeScript"
   },
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/kvnang/workers-og",
     "description": "An `og:image` (social card) generator that is fast, browser-less (no Puppeteer), and capable of running on the edge.   This package is designed to be used with Cloudflare Workers (but may be used elsewhere), with the simple API inspired by `@vercel/og`.",
     "stars": 357,
-    "forks": 29,
+    "forks": 30,
     "language": "TypeScript"
   },
   {
@@ -131,7 +131,7 @@
     "full_name": "roimdev/roim-picx",
     "html_url": "https://github.com/roimdev/roim-picx",
     "description": "A free image hosting application based on Cloudflare's Worker, R2, Pages, and D1 architectures.一款基于 Cloudflare 的 Worker、R2、Pages、D1 实现的免费图床应用",
-    "stars": 302,
+    "stars": 303,
     "forks": 318,
     "language": "Vue"
   },
@@ -163,7 +163,7 @@
     "full_name": "standardagents/sip",
     "html_url": "https://github.com/standardagents/sip",
     "description": "Small Image Processor - Ultra memory-efficient image processing for Cloudflare Workers 🟠",
-    "stars": 197,
+    "stars": 198,
     "forks": 4,
     "language": "TypeScript"
   },
@@ -211,7 +211,7 @@
     "full_name": "iiop123/workers-image-hosting",
     "html_url": "https://github.com/iiop123/workers-image-hosting",
     "description": "cloudflare worker简易图床",
-    "stars": 159,
+    "stars": 160,
     "forks": 62,
     "language": "Vue"
   },
