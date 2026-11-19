@@ -3,23 +3,23 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27505,
-    "forks": 2339,
+    "stars": 27507,
+    "forks": 2340,
     "language": "TypeScript"
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6922,
-    "forks": 8842,
+    "stars": 6927,
+    "forks": 8848,
     "language": "JavaScript"
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4708,
+    "stars": 4707,
     "forks": 8841,
     "language": "HTML"
   },
@@ -27,8 +27,8 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3927,
-    "forks": 204,
+    "stars": 3988,
+    "forks": 319,
     "language": "Rust"
   },
   {
@@ -43,7 +43,7 @@
     "full_name": "0-RTT/telegraph",
     "html_url": "https://github.com/0-RTT/telegraph",
     "description": "基于 Cloudflare Worker 和 Pages 的图床/视频床/文件床，轻松实现无服务器部署！",
-    "stars": 1084,
+    "stars": 1083,
     "forks": 369,
     "language": "JavaScript"
   },
@@ -51,8 +51,8 @@
     "full_name": "vikiboss/r2-web",
     "html_url": "https://github.com/vikiboss/r2-web",
     "description": "📁 轻盈优雅的 Web 原生 Cloudflare R2 桶文件管理器，一切皆在浏览器中完成。 \\| 📁 A lightweight, elegant, pure-browser Cloudflare R2 file manager. Everything happens right in your browser.",
-    "stars": 502,
-    "forks": 105,
+    "stars": 503,
+    "forks": 106,
     "language": "JavaScript"
   },
   {
@@ -67,7 +67,7 @@
     "full_name": "WisdomSky/Cloudflared-web",
     "html_url": "https://github.com/WisdomSky/Cloudflared-web",
     "description": "Cloudflared-web is a docker image that packages both cloudflared cli and a simple Web UI to easily start or stop remotely-managed Cloudflare tunnel.",
-    "stars": 482,
+    "stars": 481,
     "forks": 53,
     "language": "Vue"
   },
@@ -107,7 +107,7 @@
     "full_name": "CaddyBuilds/caddy-cloudflare",
     "html_url": "https://github.com/CaddyBuilds/caddy-cloudflare",
     "description": "Caddy Docker image with Cloudflare DNS module",
-    "stars": 338,
+    "stars": 339,
     "forks": 80,
     "language": "Dockerfile"
   },
@@ -123,7 +123,7 @@
     "full_name": "saurav-z/free-image-generation-api",
     "html_url": "https://github.com/saurav-z/free-image-generation-api",
     "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 325,
+    "stars": 324,
     "forks": 126,
     "language": "HTML"
   },

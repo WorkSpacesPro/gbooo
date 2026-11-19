@@ -4,7 +4,7 @@
     "html_url": "https://github.com/xyTom/Url-Shorten-Worker",
     "description": "A URL Shortener created using Cloudflare worker",
     "stars": 1786,
-    "forks": 1299,
+    "forks": 1298,
     "language": "JavaScript"
   },
   {
@@ -19,7 +19,7 @@
     "full_name": "yusukebe/url-shortener",
     "html_url": "https://github.com/yusukebe/url-shortener",
     "description": "Creating URL Shortener with Cloudflare Pages",
-    "stars": 161,
+    "stars": 162,
     "forks": 24,
     "language": "TypeScript"
   },

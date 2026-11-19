@@ -3,31 +3,31 @@
     "full_name": "honojs/hono",
     "html_url": "https://github.com/honojs/hono",
     "description": "Web framework built on Web Standards",
-    "stars": 32972,
-    "forks": 1481,
+    "stars": 32979,
+    "forks": 1486,
     "language": "TypeScript"
   },
   {
     "full_name": "supermemoryai/supermemory",
     "html_url": "https://github.com/supermemoryai/supermemory",
     "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-    "stars": 31661,
-    "forks": 2779,
+    "stars": 31670,
+    "forks": 2780,
     "language": "TypeScript"
   },
   {
     "full_name": "kriasoft/react-starter-kit",
     "html_url": "https://github.com/kriasoft/react-starter-kit",
     "description": "Modern React starter kit with Bun, TypeScript, Tailwind CSS, tRPC, Stripe, and Cloudflare Workers. Production-ready monorepo for building fast web apps.",
-    "stars": 23722,
-    "forks": 4193,
+    "stars": 23724,
+    "forks": 4196,
     "language": "TypeScript"
   },
   {
     "full_name": "yonggekkk/Cloudflare-vless-trojan",
     "html_url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
     "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-    "stars": 16810,
+    "stars": 16814,
     "forks": 9886,
     "language": "JavaScript"
   },
@@ -35,16 +35,16 @@
     "full_name": "maillab/cloud-mail",
     "html_url": "https://github.com/maillab/cloud-mail",
     "description": "An all-in-one email service platform powered by Cloudflare  \\| 基于 Cloudflare 的一站式邮箱服务平台  \\| Cloudflare Email 邮箱 Mail",
-    "stars": 16400,
-    "forks": 23929,
+    "stars": 16439,
+    "forks": 23971,
     "language": "JavaScript"
   },
   {
     "full_name": "dreamhunter2333/cloudflare_temp_email",
     "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
     "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
-    "stars": 12141,
-    "forks": 8073,
+    "stars": 12145,
+    "forks": 8080,
     "language": "TypeScript"
   },
   {
@@ -52,31 +52,31 @@
     "html_url": "https://github.com/cloudflare/moltworker",
     "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
     "stars": 9946,
-    "forks": 1698,
+    "forks": 1697,
     "language": "TypeScript"
   },
   {
     "full_name": "zizifn/edgetunnel",
     "html_url": "https://github.com/zizifn/edgetunnel",
     "description": "Running V2ray inside edge/serverless runtime",
-    "stars": 9342,
-    "forks": 52651,
+    "stars": 9345,
+    "forks": 52691,
     "language": "JavaScript"
   },
   {
     "full_name": "webstudio-is/webstudio",
     "html_url": "https://github.com/webstudio-is/webstudio",
     "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
-    "stars": 9176,
-    "forks": 1636,
+    "stars": 9178,
+    "forks": 1638,
     "language": "TypeScript"
   },
   {
     "full_name": "cmliu/CF-Workers-docker.io",
     "html_url": "https://github.com/cmliu/CF-Workers-docker.io",
     "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
-    "stars": 9173,
-    "forks": 10464,
+    "stars": 9172,
+    "forks": 10458,
     "language": "JavaScript"
   },
   {
@@ -91,23 +91,23 @@
     "full_name": "hieunc229/mailflare",
     "html_url": "https://github.com/hieunc229/mailflare",
     "description": "Email for professionals and teams",
-    "stars": 6966,
-    "forks": 1203,
+    "stars": 7168,
+    "forks": 1239,
     "language": "TypeScript"
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6922,
-    "forks": 8842,
+    "stars": 6927,
+    "forks": 8848,
     "language": "JavaScript"
   },
   {
     "full_name": "oomol-lab/open-connector",
     "html_url": "https://github.com/oomol-lab/open-connector",
     "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-    "stars": 6265,
+    "stars": 6273,
     "forks": 613,
     "language": "TypeScript"
   },
@@ -115,24 +115,24 @@
     "full_name": "vikiboss/60s",
     "html_url": "https://github.com/vikiboss/60s",
     "description": "⏰ 60s API 免费接口。每天 60 秒看世界、奥运奖牌榜、小红书/B站/微博/抖音/知乎热搜、金价、油价、天气、翻译、壁纸、Epic 游戏、二维码、猫眼票房｜一系列 高质量、开源、可靠、全球 CDN 加速 的开放 API 集合，支持 Docker / Deno / Bun / Cloudflare Workers / Node.js 部署",
-    "stars": 5937,
-    "forks": 1136,
+    "stars": 5941,
+    "forks": 1139,
     "language": "TypeScript"
   },
   {
     "full_name": "7Sageer/sublink-worker",
     "html_url": "https://github.com/7Sageer/sublink-worker",
     "description": "One Worker, All Subscriptions",
-    "stars": 5596,
-    "forks": 9732,
+    "stars": 5601,
+    "forks": 9734,
     "language": "JavaScript"
   },
   {
     "full_name": "cloudflare/vibesdk",
     "html_url": "https://github.com/cloudflare/vibesdk",
     "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
-    "stars": 5476,
-    "forks": 1282,
+    "stars": 5478,
+    "forks": 1283,
     "language": "TypeScript"
   },
   {
@@ -140,14 +140,14 @@
     "html_url": "https://github.com/cloudflare/workers-sdk",
     "description": "⛅️ Home to Wrangler, the CLI for Cloudflare Workers®",
     "stars": 4735,
-    "forks": 1657,
+    "forks": 1662,
     "language": "TypeScript"
   },
   {
     "full_name": "denuitt1/mhr-cfw",
     "html_url": "https://github.com/denuitt1/mhr-cfw",
     "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-    "stars": 4465,
+    "stars": 4466,
     "forks": 417,
     "language": "Python"
   },
@@ -155,8 +155,8 @@
     "full_name": "shuaiplus/nodewarden",
     "html_url": "https://github.com/shuaiplus/nodewarden",
     "description": "Bitwarden-compatible server running on Cloudflare Workers",
-    "stars": 4175,
-    "forks": 4771,
+    "stars": 4177,
+    "forks": 4776,
     "language": "TypeScript"
   },
   {
@@ -164,15 +164,15 @@
     "html_url": "https://github.com/microfeed/microfeed",
     "description": "an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
     "stars": 4141,
-    "forks": 1433,
+    "forks": 1431,
     "language": "TypeScript"
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3927,
-    "forks": 204,
+    "stars": 3988,
+    "forks": 319,
     "language": "Rust"
   },
   {
@@ -187,8 +187,8 @@
     "full_name": "AmintaCCCP/GithubStarsManager",
     "html_url": "https://github.com/AmintaCCCP/GithubStarsManager",
     "description": "AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking",
-    "stars": 3889,
-    "forks": 199,
+    "stars": 3890,
+    "forks": 200,
     "language": "TypeScript"
   },
   {
@@ -204,23 +204,23 @@
     "html_url": "https://github.com/tbxark/ChatGPT-Telegram-Workers",
     "description": "Easily deploy your Telegram ChatGPT bot on Cloudflare Workers (or Vercel, Docker...).",
     "stars": 3816,
-    "forks": 888,
+    "forks": 889,
     "language": "TypeScript"
   },
   {
     "full_name": "tianma-if/edgeever",
     "html_url": "https://github.com/tianma-if/edgeever",
     "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
-    "stars": 3357,
-    "forks": 1736,
+    "stars": 3423,
+    "forks": 1778,
     "language": "TypeScript"
   },
   {
     "full_name": "Inkloom-art/inkloom",
     "html_url": "https://github.com/Inkloom-art/inkloom",
     "description": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-    "stars": 3226,
-    "forks": 2751,
+    "stars": 3225,
+    "forks": 2747,
     "language": "TypeScript"
   },
   {
