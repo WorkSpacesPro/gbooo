@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 60664,
-    "forks": 7343,
+    "stars": 60940,
+    "forks": 7373,
     "language": "Python"
   },
   {
@@ -19,7 +19,7 @@
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9593,
+    "stars": 9607,
     "forks": 267,
     "language": "TypeScript"
   },
@@ -27,15 +27,15 @@
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-    "stars": 6477,
-    "forks": 837,
+    "stars": 6487,
+    "forks": 840,
     "language": "Python"
   },
   {
     "full_name": "mixn/carbon-now-cli",
     "html_url": "https://github.com/mixn/carbon-now-cli",
     "description": "🎨 Beautiful images of your code — from right inside your terminal.",
-    "stars": 6035,
+    "stars": 6034,
     "forks": 125,
     "language": "TypeScript"
   },
@@ -44,7 +44,7 @@
     "html_url": "https://github.com/unhappychoice/gitlogue",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
     "stars": 5278,
-    "forks": 123,
+    "forks": 124,
     "language": "Rust"
   }
 ]
