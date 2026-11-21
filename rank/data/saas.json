@@ -3,16 +3,16 @@
     "full_name": "wasp-lang/open-saas",
     "html_url": "https://github.com/wasp-lang/open-saas",
     "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
-    "stars": 16382,
-    "forks": 1985,
+    "stars": 16388,
+    "forks": 1982,
     "language": "MDX"
   },
   {
     "full_name": "ixartz/SaaS-Boilerplate",
     "html_url": "https://github.com/ixartz/SaaS-Boilerplate",
     "description": "🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing",
-    "stars": 7496,
-    "forks": 1336,
+    "stars": 7494,
+    "forks": 1335,
     "language": "TypeScript"
   },
   {
@@ -20,14 +20,14 @@
     "html_url": "https://github.com/thedevdojo/wave",
     "description": "Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰",
     "stars": 6549,
-    "forks": 909,
+    "forks": 908,
     "language": "PHP"
   },
   {
     "full_name": "boxyhq/saas-starter-kit",
     "html_url": "https://github.com/boxyhq/saas-starter-kit",
     "description": "🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀",
-    "stars": 4972,
+    "stars": 4970,
     "forks": 1241,
     "language": "TypeScript"
   },
@@ -43,7 +43,7 @@
     "full_name": "nextify-limited/saasfly",
     "html_url": "https://github.com/nextify-limited/saasfly",
     "description": "Your Next SaaS Template or Boilerplate ! A magic trip start with `bun create saasfly` . The more stars, the more surprises",
-    "stars": 2960,
+    "stars": 2961,
     "forks": 428,
     "language": "TypeScript"
   },
@@ -52,7 +52,7 @@
     "html_url": "https://github.com/scosman/CMSaasStarter",
     "description": "A modern SaaS template/boilerplate built with SvelteKit, Tailwind, and Supabase. Includes marketing page, blog, subscriptions, auth, user dashboard, user settings, pricing page, and more.",
     "stars": 2375,
-    "forks": 468,
+    "forks": 467,
     "language": "Svelte"
   }
 ]
