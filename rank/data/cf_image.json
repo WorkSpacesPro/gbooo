@@ -3,7 +3,7 @@
     "full_name": "Molunerfinn/PicGo",
     "html_url": "https://github.com/Molunerfinn/PicGo",
     "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
-    "stars": 27510,
+    "stars": 27511,
     "forks": 2340,
     "language": "TypeScript"
   },
@@ -11,24 +11,24 @@
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6933,
-    "forks": 8859,
+    "stars": 6937,
+    "forks": 8870,
     "language": "JavaScript"
   },
   {
     "full_name": "cf-pages/Telegraph-Image",
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
-    "stars": 4706,
-    "forks": 8835,
+    "stars": 4705,
+    "forks": 8834,
     "language": "HTML"
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 3961,
-    "forks": 307,
+    "stars": 4044,
+    "forks": 304,
     "language": "Rust"
   },
   {
@@ -212,7 +212,7 @@
     "html_url": "https://github.com/iiop123/workers-image-hosting",
     "description": "cloudflare worker简易图床",
     "stars": 159,
-    "forks": 62,
+    "forks": 63,
     "language": "Vue"
   },
   {

@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7290,
-    "forks": 5409,
+    "stars": 7295,
+    "forks": 5413,
     "language": "TypeScript"
   },
   {
@@ -19,7 +19,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 744,
+    "stars": 745,
     "forks": 17,
     "language": "TypeScript"
   },
@@ -44,7 +44,7 @@
     "html_url": "https://github.com/uxiaohan/HanAnalytics",
     "description": "一个简单的网络分析跟踪器和仪表板，在 Cloudflare Pages 上即可快速部署的网站分析仪表板,无成本稳定运行",
     "stars": 280,
-    "forks": 170,
+    "forks": 169,
     "language": "Less"
   },
   {
@@ -67,7 +67,7 @@
     "full_name": "yestool/analytics_with_cloudflare",
     "html_url": "https://github.com/yestool/analytics_with_cloudflare",
     "description": "a simple web analytics use Cloudflare workers + D1 + Huno. 👉 https://webviso.yestool.org",
-    "stars": 147,
+    "stars": 148,
     "forks": 38,
     "language": "TypeScript"
   },

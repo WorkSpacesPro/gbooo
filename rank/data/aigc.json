@@ -3,7 +3,7 @@
     "full_name": "AUTOMATIC1111/stable-diffusion-webui",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "description": "Stable Diffusion web UI",
-    "stars": 165367,
+    "stars": 165373,
     "forks": 31078,
     "language": "Python"
   },
@@ -11,32 +11,32 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-    "stars": 147882,
-    "forks": 17613,
+    "stars": 148034,
+    "forks": 17631,
     "language": "Python"
   },
   {
     "full_name": "OpenMontageInc/OpenMontage",
     "html_url": "https://github.com/OpenMontageInc/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 82008,
-    "forks": 11159,
+    "stars": 82227,
+    "forks": 11200,
     "language": "Python"
   },
   {
     "full_name": "unslothai/unsloth",
     "html_url": "https://github.com/unslothai/unsloth",
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-    "stars": 79878,
-    "forks": 7437,
+    "stars": 79942,
+    "forks": 7440,
     "language": "Python"
   },
   {
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-    "stars": 50482,
-    "forks": 4630,
+    "stars": 50496,
+    "forks": 4634,
     "language": "Go"
   },
   {
@@ -51,8 +51,8 @@
     "full_name": "invoke-ai/InvokeAI",
     "html_url": "https://github.com/invoke-ai/InvokeAI",
     "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
-    "stars": 29134,
-    "forks": 3128,
+    "stars": 29140,
+    "forks": 3129,
     "language": "TypeScript"
   },
   {
@@ -67,8 +67,8 @@
     "full_name": "camenduru/stable-diffusion-webui-colab",
     "html_url": "https://github.com/camenduru/stable-diffusion-webui-colab",
     "description": "stable diffusion webui colab",
-    "stars": 15882,
-    "forks": 2601,
+    "stars": 15883,
+    "forks": 2600,
     "language": "Jupyter Notebook"
   },
   {
@@ -83,8 +83,8 @@
     "full_name": "openvinotoolkit/openvino",
     "html_url": "https://github.com/openvinotoolkit/openvino",
     "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-    "stars": 11847,
-    "forks": 3643,
+    "stars": 11995,
+    "forks": 3654,
     "language": "C++"
   },
   {
@@ -99,7 +99,7 @@
     "full_name": "Acly/krita-ai-diffusion",
     "html_url": "https://github.com/Acly/krita-ai-diffusion",
     "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.",
-    "stars": 10921,
+    "stars": 10924,
     "forks": 667,
     "language": "Python"
   },
@@ -115,8 +115,8 @@
     "full_name": "LykosAI/StabilityMatrix",
     "html_url": "https://github.com/LykosAI/StabilityMatrix",
     "description": "Multi-Platform Package Manager for Stable Diffusion",
-    "stars": 9060,
-    "forks": 625,
+    "stars": 9065,
+    "forks": 626,
     "language": "C#"
   },
   {
@@ -147,7 +147,7 @@
     "full_name": "leejet/stable-diffusion.cpp",
     "html_url": "https://github.com/leejet/stable-diffusion.cpp",
     "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,Minimax H3,...) inference in pure C/C++",
-    "stars": 8101,
+    "stars": 8107,
     "forks": 987,
     "language": "C++"
   },
@@ -155,7 +155,7 @@
     "full_name": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
     "html_url": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
     "description": "我的 ComfyUI 工作流合集 \\| My ComfyUI workflows collection",
-    "stars": 7986,
+    "stars": 7987,
     "forks": 737,
     "language": "-"
   },
@@ -171,7 +171,7 @@
     "full_name": "TheLastBen/fast-stable-diffusion",
     "html_url": "https://github.com/TheLastBen/fast-stable-diffusion",
     "description": "fast-stable-diffusion + DreamBooth",
-    "stars": 7913,
+    "stars": 7912,
     "forks": 1362,
     "language": "Python"
   },
@@ -179,7 +179,7 @@
     "full_name": "XavierXiao/Dreambooth-Stable-Diffusion",
     "html_url": "https://github.com/XavierXiao/Dreambooth-Stable-Diffusion",
     "description": "Implementation of Dreambooth (https://arxiv.org/abs/2208.12242) with Stable Diffusion",
-    "stars": 7727,
+    "stars": 7726,
     "forks": 791,
     "language": "Jupyter Notebook"
   },
@@ -187,7 +187,7 @@
     "full_name": "cloneofsimo/lora",
     "html_url": "https://github.com/cloneofsimo/lora",
     "description": "Using Low-rank adaptation to quickly fine-tune diffusion models.",
-    "stars": 7554,
+    "stars": 7556,
     "forks": 498,
     "language": "Jupyter Notebook"
   },
@@ -195,7 +195,7 @@
     "full_name": "vladmandic/sdnext",
     "html_url": "https://github.com/vladmandic/sdnext",
     "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
-    "stars": 7379,
+    "stars": 7380,
     "forks": 582,
     "language": "Python"
   },
@@ -203,7 +203,7 @@
     "full_name": "civitai/civitai",
     "html_url": "https://github.com/civitai/civitai",
     "description": "A repository of models, textual inversions, and more",
-    "stars": 7326,
+    "stars": 7327,
     "forks": 741,
     "language": "TypeScript"
   },
@@ -220,14 +220,14 @@
     "html_url": "https://github.com/AbdBarho/stable-diffusion-webui-docker",
     "description": "Easy Docker setup for Stable Diffusion with user-friendly UI",
     "stars": 7298,
-    "forks": 1239,
+    "forks": 1238,
     "language": "Shell"
   },
   {
     "full_name": "mylxsw/aidea",
     "html_url": "https://github.com/mylxsw/aidea",
     "description": "An APP that integrates mainstream large language models and image generation models, built with Flutter, with fully open-source code.",
-    "stars": 6936,
+    "stars": 6935,
     "forks": 1038,
     "language": "Dart"
   },
@@ -235,8 +235,8 @@
     "full_name": "11cafe/jaaz",
     "html_url": "https://github.com/11cafe/jaaz",
     "description": "The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.",
-    "stars": 6753,
-    "forks": 671,
+    "stars": 6759,
+    "forks": 670,
     "language": "TypeScript"
   }
 ]

@@ -3,47 +3,47 @@
     "full_name": "affaan-m/ECC",
     "html_url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 308016,
-    "forks": 45326,
+    "stars": 308562,
+    "forks": 45398,
     "language": "JavaScript"
   },
   {
     "full_name": "react/react",
     "html_url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 252839,
-    "forks": 51800,
+    "stars": 252867,
+    "forks": 51809,
     "language": "JavaScript"
   },
   {
     "full_name": "trekhleb/javascript-algorithms",
     "html_url": "https://github.com/trekhleb/javascript-algorithms",
     "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-    "stars": 196754,
-    "forks": 30953,
+    "stars": 196761,
+    "forks": 30952,
     "language": "JavaScript"
   },
   {
     "full_name": "DietrichGebert/ponytail",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 195881,
-    "forks": 11030,
+    "stars": 196564,
+    "forks": 11081,
     "language": "JavaScript"
   },
   {
     "full_name": "CyC2018/CS-Notes",
     "html_url": "https://github.com/CyC2018/CS-Notes",
     "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-    "stars": 186557,
-    "forks": 50604,
+    "stars": 186561,
+    "forks": 50601,
     "language": "JavaScript"
   },
   {
     "full_name": "twbs/bootstrap",
     "html_url": "https://github.com/twbs/bootstrap",
     "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-    "stars": 175102,
+    "stars": 175116,
     "forks": 78766,
     "language": "JavaScript"
   },
@@ -51,23 +51,23 @@
     "full_name": "Snailclimb/JavaGuide",
     "html_url": "https://github.com/Snailclimb/JavaGuide",
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 159635,
-    "forks": 46093,
+    "stars": 159643,
+    "forks": 46092,
     "language": "JavaScript"
   },
   {
     "full_name": "airbnb/javascript",
     "html_url": "https://github.com/airbnb/javascript",
     "description": "JavaScript Style Guide",
-    "stars": 148016,
-    "forks": 26493,
+    "stars": 148021,
+    "forks": 26490,
     "language": "JavaScript"
   },
   {
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "description": "The React Framework",
-    "stars": 143627,
+    "stars": 143603,
     "forks": 32733,
     "language": "JavaScript"
   },
@@ -75,135 +75,135 @@
     "full_name": "Chalarangelo/30-seconds-of-code",
     "html_url": "https://github.com/Chalarangelo/30-seconds-of-code",
     "description": "Coding articles to level up your development skills",
-    "stars": 129581,
-    "forks": 12506,
+    "stars": 129596,
+    "forks": 12507,
     "language": "JavaScript"
   },
   {
     "full_name": "nodejs/node",
     "html_url": "https://github.com/nodejs/node",
     "description": "Node.js JavaScript runtime ✨🐢🚀✨",
-    "stars": 123809,
-    "forks": 38005,
+    "stars": 123868,
+    "forks": 38011,
     "language": "JavaScript"
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 119487,
-    "forks": 7991,
+    "stars": 119862,
+    "forks": 8033,
     "language": "JavaScript"
   },
   {
     "full_name": "addyosmani/agent-skills",
     "html_url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 119463,
-    "forks": 12413,
+    "stars": 119649,
+    "forks": 12438,
     "language": "JavaScript"
   },
   {
     "full_name": "mrdoob/three.js",
     "html_url": "https://github.com/mrdoob/three.js",
     "description": "JavaScript 3D Library.",
-    "stars": 119053,
-    "forks": 36986,
+    "stars": 119114,
+    "forks": 36998,
     "language": "JavaScript"
   },
   {
     "full_name": "axios/axios",
     "html_url": "https://github.com/axios/axios",
     "description": "Promise based HTTP client for the browser and node.js",
-    "stars": 109385,
-    "forks": 12108,
+    "stars": 109423,
+    "forks": 12109,
     "language": "JavaScript"
   },
   {
     "full_name": "react/create-react-app",
     "html_url": "https://github.com/react/create-react-app",
     "description": "Set up a modern web app by running one command.",
-    "stars": 103223,
-    "forks": 26819,
+    "stars": 103222,
+    "forks": 26817,
     "language": "JavaScript"
   },
   {
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-    "stars": 99376,
-    "forks": 32466,
+    "stars": 99384,
+    "forks": 32465,
     "language": "JavaScript"
   },
   {
     "full_name": "tt-a1i/archify",
     "html_url": "https://github.com/tt-a1i/archify",
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-    "stars": 98435,
-    "forks": 6725,
+    "stars": 98671,
+    "forks": 6742,
     "language": "JavaScript"
   },
   {
     "full_name": "microsoft/Web-Dev-For-Beginners",
     "html_url": "https://github.com/microsoft/Web-Dev-For-Beginners",
     "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
-    "stars": 97145,
-    "forks": 16126,
+    "stars": 97149,
+    "forks": 16130,
     "language": "JavaScript"
   },
   {
     "full_name": "louislam/uptime-kuma",
     "html_url": "https://github.com/louislam/uptime-kuma",
     "description": "A fancy self-hosted monitoring tool",
-    "stars": 94727,
-    "forks": 8862,
+    "stars": 94756,
+    "forks": 8867,
     "language": "JavaScript"
   },
   {
     "full_name": "ryanmcdermott/clean-code-javascript",
     "html_url": "https://github.com/ryanmcdermott/clean-code-javascript",
     "description": "Clean Code concepts adapted for JavaScript",
-    "stars": 94691,
-    "forks": 12493,
+    "stars": 94694,
+    "forks": 12491,
     "language": "JavaScript"
   },
   {
     "full_name": "sveltejs/svelte",
     "html_url": "https://github.com/sveltejs/svelte",
     "description": "web development for the rest of us",
-    "stars": 89840,
-    "forks": 6132,
+    "stars": 89861,
+    "forks": 6131,
     "language": "JavaScript"
   },
   {
     "full_name": "career-ops-hq/career-ops",
     "html_url": "https://github.com/career-ops-hq/career-ops",
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
-    "stars": 83998,
-    "forks": 15378,
+    "stars": 84097,
+    "forks": 15395,
     "language": "JavaScript"
   },
   {
     "full_name": "Ebony-Vinyl/dsh-our-free-model",
     "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "stars": 82557,
-    "forks": 2324,
+    "stars": 83471,
+    "forks": 2342,
     "language": "JavaScript"
   },
   {
     "full_name": "anuraghazra/github-readme-stats",
     "html_url": "https://github.com/anuraghazra/github-readme-stats",
     "description": ":zap: Dynamically generated stats for your github readmes",
-    "stars": 79839,
-    "forks": 38274,
+    "stars": 79838,
+    "forks": 38277,
     "language": "JavaScript"
   },
   {
     "full_name": "FortAwesome/Font-Awesome",
     "html_url": "https://github.com/FortAwesome/Font-Awesome",
     "description": "The iconic SVG, font, and CSS toolkit",
-    "stars": 77044,
+    "stars": 77047,
     "forks": 12141,
     "language": "JavaScript"
   },
@@ -211,31 +211,31 @@
     "full_name": "cloudflare/security-audit-skill",
     "html_url": "https://github.com/cloudflare/security-audit-skill",
     "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "stars": 76426,
-    "forks": 5146,
+    "stars": 76836,
+    "forks": 5180,
     "language": "JavaScript"
   },
   {
     "full_name": "typicode/json-server",
     "html_url": "https://github.com/typicode/json-server",
     "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
-    "stars": 75750,
-    "forks": 7248,
+    "stars": 75753,
+    "forks": 7247,
     "language": "JavaScript"
   },
   {
     "full_name": "juliangarnier/anime",
     "html_url": "https://github.com/juliangarnier/anime",
     "description": "JavaScript animation engine",
-    "stars": 74946,
-    "forks": 5101,
+    "stars": 74966,
+    "forks": 5104,
     "language": "JavaScript"
   },
   {
     "full_name": "hakimel/reveal.js",
     "html_url": "https://github.com/hakimel/reveal.js",
     "description": "The HTML Presentation Framework",
-    "stars": 72611,
+    "stars": 72615,
     "forks": 17014,
     "language": "JavaScript"
   }
