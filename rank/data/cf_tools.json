@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7295,
-    "forks": 5413,
+    "stars": 7294,
+    "forks": 5415,
     "language": "TypeScript"
   },
   {
@@ -12,14 +12,14 @@
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
     "stars": 2211,
-    "forks": 144,
+    "forks": 145,
     "language": "TypeScript"
   },
   {
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 745,
+    "stars": 753,
     "forks": 17,
     "language": "TypeScript"
   },
@@ -35,7 +35,7 @@
     "full_name": "shivamanupadi/traks",
     "html_url": "https://github.com/shivamanupadi/traks",
     "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
-    "stars": 351,
+    "stars": 350,
     "forks": 28,
     "language": "TypeScript"
   },
@@ -91,7 +91,7 @@
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 101,
+    "stars": 104,
     "forks": 44,
     "language": "TypeScript"
   },
