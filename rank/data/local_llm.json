@@ -3,39 +3,47 @@
     "full_name": "HKUDS/nanobot",
     "html_url": "https://github.com/HKUDS/nanobot",
     "description": "Your lightweight open-source personal agent.",
-    "stars": 50279,
-    "forks": 8759,
+    "stars": 50294,
+    "forks": 8764,
     "language": "Python"
   },
   {
     "full_name": "codewhale-hq/Codewhale",
     "html_url": "https://github.com/codewhale-hq/Codewhale",
     "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
-    "stars": 41196,
-    "forks": 3575,
+    "stars": 41195,
+    "forks": 3578,
     "language": "Rust"
   },
   {
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "description": "Distribute and run LLMs with a single file.",
-    "stars": 26701,
+    "stars": 26710,
     "forks": 1682,
     "language": "C++"
+  },
+  {
+    "full_name": "MODSetter/SurfSense",
+    "html_url": "https://github.com/MODSetter/SurfSense",
+    "description": "Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your computer. Join our Discord: https://discord.gg/ejRNvftDp9",
+    "stars": 16933,
+    "forks": 1615,
+    "language": "Python"
   },
   {
     "full_name": "MakazhanAlpamys/Soup",
     "html_url": "https://github.com/MakazhanAlpamys/Soup",
     "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-    "stars": 10733,
-    "forks": 1788,
+    "stars": 10765,
+    "forks": 1792,
     "language": "Python"
   },
   {
     "full_name": "LearningCircuit/local-deep-research",
     "html_url": "https://github.com/LearningCircuit/local-deep-research",
     "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
-    "stars": 9622,
+    "stars": 9640,
     "forks": 946,
     "language": "Python"
   },
@@ -43,39 +51,39 @@
     "full_name": "open-multi-agent/open-multi-agent",
     "html_url": "https://github.com/open-multi-agent/open-multi-agent",
     "description": "Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it.",
-    "stars": 7071,
-    "forks": 2436,
+    "stars": 7075,
+    "forks": 2434,
     "language": "TypeScript"
   },
   {
     "full_name": "dograh-hq/dograh",
     "html_url": "https://github.com/dograh-hq/dograh",
     "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
-    "stars": 6247,
-    "forks": 1616,
+    "stars": 6255,
+    "forks": 1621,
     "language": "Python"
   },
   {
     "full_name": "maziyarpanahi/openmed",
     "html_url": "https://github.com/maziyarpanahi/openmed",
     "description": "Local-first healthcare AI: clinical NER and HIPAA PII de-identification on hardware you control. 2,200+ medical models, 35 model-backed PII languages, and Python, MLX, Android and browser runtimes. Apache-2.0 SDK.",
-    "stars": 5836,
-    "forks": 773,
+    "stars": 5837,
+    "forks": 774,
     "language": "Python"
   },
   {
     "full_name": "AienTech/dossier",
     "html_url": "https://github.com/AienTech/dossier",
     "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
-    "stars": 5384,
-    "forks": 1128,
+    "stars": 5470,
+    "forks": 1140,
     "language": "TypeScript"
   },
   {
     "full_name": "vinta/pangu.js",
     "html_url": "https://github.com/vinta/pangu.js",
     "description": "Opinionated paranoid text spacing in JavaScript, with on-device AI semantic judgment",
-    "stars": 4860,
+    "stars": 4861,
     "forks": 316,
     "language": "TypeScript"
   },
@@ -83,39 +91,39 @@
     "full_name": "PurpleDoubleD/locally-uncensored",
     "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "description": "The all-in-one local AI studio for your desktop: chat, image and video generation and a coding agent in one free, open source app. Windows and Linux. No Docker, no terminal, no cloud required.",
-    "stars": 4611,
-    "forks": 737,
+    "stars": 4653,
+    "forks": 742,
+    "language": "TypeScript"
+  },
+  {
+    "full_name": "simplexai-labs/linger",
+    "html_url": "https://github.com/simplexai-labs/linger",
+    "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+    "stars": 4295,
+    "forks": 404,
     "language": "TypeScript"
   },
   {
     "full_name": "raullenchai/Rapid-MLX",
     "html_url": "https://github.com/raullenchai/Rapid-MLX",
     "description": "Rapid-MLX is an open-source (Apache 2.0) OpenAI- and Anthropic-compatible LLM inference server for Apple Silicon, built on MLX, focused on reliable tool calling for coding agents. Up to 4× faster than Apple's MLX (mlx-lm) on the same weights.",
-    "stars": 4176,
-    "forks": 446,
+    "stars": 4180,
+    "forks": 445,
     "language": "Python"
   },
   {
     "full_name": "langroid/langroid",
     "html_url": "https://github.com/langroid/langroid",
     "description": "Harness LLMs with Multi-Agent Programming",
-    "stars": 4155,
+    "stars": 4154,
     "forks": 441,
     "language": "Python"
-  },
-  {
-    "full_name": "simplexai-labs/linger",
-    "html_url": "https://github.com/simplexai-labs/linger",
-    "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
-    "stars": 4061,
-    "forks": 383,
-    "language": "TypeScript"
   },
   {
     "full_name": "deta/surf",
     "html_url": "https://github.com/deta/surf",
     "description": "Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).",
-    "stars": 3651,
+    "stars": 3652,
     "forks": 253,
     "language": "TypeScript"
   },
@@ -123,8 +131,8 @@
     "full_name": "AtomicBot-ai/atomic-agent",
     "html_url": "https://github.com/AtomicBot-ai/atomic-agent",
     "description": "Atomic Agent is a local-first AI agent. Runs open-weight models on your own machine via llama.cpp.",
-    "stars": 3590,
-    "forks": 301,
+    "stars": 3588,
+    "forks": 300,
     "language": "TypeScript"
   },
   {
@@ -139,16 +147,16 @@
     "full_name": "mw00/project-maya",
     "html_url": "https://github.com/mw00/project-maya",
     "description": "Run GLM-5.3 (744B), DeepSeek-V4.1-Flash (748B), MiniMax-M3.1-Flash (428B), GLM-5.3-Flash (321B) and Hy4-Flash (220B) on your own GPUs - from 8 GB of VRAM, NVIDIA and AMD, one dashboard, OpenAI- and Anthropic-compatible API.",
-    "stars": 3249,
-    "forks": 462,
+    "stars": 3303,
+    "forks": 471,
     "language": "Cuda"
   },
   {
     "full_name": "rafska/awesome-local-llm",
     "html_url": "https://github.com/rafska/awesome-local-llm",
     "description": "A curated list of awesome platforms, tools, practices and resources that helps run LLMs locally",
-    "stars": 3085,
-    "forks": 564,
+    "stars": 3087,
+    "forks": 568,
     "language": "-"
   },
   {
@@ -160,26 +168,26 @@
     "language": "Rust"
   },
   {
-    "full_name": "syv-ai/HyperQwen",
-    "html_url": "https://github.com/syv-ai/HyperQwen",
-    "description": "Serve large Qwen models fast on the GPUs you actually own. Qwen3.8-27B on a single 24 GB card with vLLM: 127 tok/s single-user (381 when the answer quotes the prompt), ~1,035 tok/s at 64 concurrent, 150k-262k context. vLLM patches, requant pipeline, benchmarks.",
-    "stars": 2786,
-    "forks": 351,
-    "language": "Python"
-  },
-  {
     "full_name": "youssofal/MTPLX",
     "html_url": "https://github.com/youssofal/MTPLX",
     "description": "The fastest way to run Inkling 2 Mini, Qwen 3.8 and Ternary Bonsai 2 27B on a Mac: Inkling 2 Mini at up to 128.8 tok/s and Flash Next at 125 tok/s in OpenCode on an M5 Max, and a 27B model on 16 GB Macs. Native MTP speculative decoding on Apple Silicon, exact at any temperature. OpenAI and Anthropic compatible local server.",
-    "stars": 2783,
-    "forks": 218,
+    "stars": 2808,
+    "forks": 219,
+    "language": "Python"
+  },
+  {
+    "full_name": "syv-ai/HyperQwen",
+    "html_url": "https://github.com/syv-ai/HyperQwen",
+    "description": "Serve large Qwen models fast on the GPUs you actually own. Qwen3.8-27B on a single 24 GB card with vLLM: 127 tok/s single-user (381 when the answer quotes the prompt), ~1,035 tok/s at 64 concurrent, 150k-262k context. vLLM patches, requant pipeline, benchmarks.",
+    "stars": 2792,
+    "forks": 352,
     "language": "Python"
   },
   {
     "full_name": "itayinbarr/little-coder",
     "html_url": "https://github.com/itayinbarr/little-coder",
     "description": "A harness optimized to smaller LLMs",
-    "stars": 2738,
+    "stars": 2739,
     "forks": 186,
     "language": "TypeScript"
   },
@@ -187,7 +195,7 @@
     "full_name": "papersgpt/papersgpt-for-zotero",
     "html_url": "https://github.com/papersgpt/papersgpt-for-zotero",
     "description": "Professional AI research tool for Zotero: chat with PDFs, whole-library search, Literature Radar, AutoPilot. 30+ LLMs or local models; built-in MCP server. Chat with your pocket Zotero on iPhone → https://www.docsagent.app",
-    "stars": 2714,
+    "stars": 2715,
     "forks": 95,
     "language": "JavaScript"
   },
@@ -195,16 +203,16 @@
     "full_name": "ddalcu/mlx-serve",
     "html_url": "https://github.com/ddalcu/mlx-serve",
     "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
-    "stars": 2583,
-    "forks": 281,
+    "stars": 2590,
+    "forks": 284,
     "language": "Zig"
   },
   {
     "full_name": "iamajmeena/neonclipping",
     "html_url": "https://github.com/iamajmeena/neonclipping",
     "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-    "stars": 2210,
-    "forks": 133,
+    "stars": 2384,
+    "forks": 151,
     "language": "Python"
   },
   {
@@ -230,13 +238,5 @@
     "stars": 2112,
     "forks": 520,
     "language": "HTML"
-  },
-  {
-    "full_name": "inferstep/ATLAS",
-    "html_url": "https://github.com/inferstep/ATLAS",
-    "description": "Adaptive Test-time Learning and Autonomous Specialization",
-    "stars": 2111,
-    "forks": 202,
-    "language": "Python"
   }
 ]

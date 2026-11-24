@@ -3,240 +3,240 @@
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 474787,
-    "forks": 115736,
+    "stars": 476366,
+    "forks": 116028,
     "language": "TypeScript"
   },
   {
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-    "stars": 395081,
-    "forks": 82958,
+    "stars": 395139,
+    "forks": 82965,
     "language": "TypeScript"
   },
   {
     "full_name": "mattpocock/skills",
     "html_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 330914,
-    "forks": 27800,
+    "stars": 331813,
+    "forks": 27880,
     "language": "Shell"
   },
   {
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 324533,
-    "forks": 28799,
+    "stars": 325541,
+    "forks": 28875,
     "language": "Shell"
   },
   {
     "full_name": "affaan-m/ECC",
     "html_url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 309229,
-    "forks": 45498,
+    "stars": 309869,
+    "forks": 45567,
     "language": "JavaScript"
   },
   {
     "full_name": "deepseek-ai/deepseek-harness",
     "html_url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 285839,
-    "forks": 35576,
+    "stars": 286394,
+    "forks": 35676,
     "language": "TypeScript"
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 265546,
-    "forks": 60073,
+    "stars": 265766,
+    "forks": 60178,
     "language": "Python"
   },
   {
     "full_name": "multica-ai/andrej-karpathy-skills",
     "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "stars": 235199,
-    "forks": 23332,
+    "stars": 235406,
+    "forks": 23351,
     "language": "-"
   },
   {
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 228704,
-    "forks": 31085,
+    "stars": 228888,
+    "forks": 31127,
     "language": "TypeScript"
   },
   {
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 199207,
-    "forks": 23317,
+    "stars": 199689,
+    "forks": 23370,
     "language": "Python"
   },
   {
     "full_name": "DietrichGebert/ponytail",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 197176,
-    "forks": 11132,
+    "stars": 197796,
+    "forks": 11191,
     "language": "JavaScript"
   },
   {
     "full_name": "ultraworkers/claw-code",
     "html_url": "https://github.com/ultraworkers/claw-code",
     "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-    "stars": 194730,
-    "forks": 107138,
+    "stars": 194722,
+    "forks": 107118,
     "language": "Rust"
   },
   {
     "full_name": "msitarzewski/agency-agents",
     "html_url": "https://github.com/msitarzewski/agency-agents",
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "stars": 169870,
-    "forks": 27604,
+    "stars": 170005,
+    "forks": 27618,
     "language": "Shell"
   },
   {
     "full_name": "anthropics/claude-code",
     "html_url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "stars": 156766,
-    "forks": 25107,
+    "stars": 156891,
+    "forks": 25104,
     "language": "TypeScript"
   },
   {
     "full_name": "farion1231/cc-switch",
     "html_url": "https://github.com/farion1231/cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-    "stars": 156557,
-    "forks": 10226,
+    "stars": 156833,
+    "forks": 10237,
     "language": "Rust"
   },
   {
     "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
     "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-    "stars": 153052,
-    "forks": 16135,
+    "stars": 153559,
+    "forks": 16187,
     "language": "Python"
   },
   {
     "full_name": "Graphify-Labs/graphify",
     "html_url": "https://github.com/Graphify-Labs/graphify",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "stars": 152238,
-    "forks": 14636,
+    "stars": 152748,
+    "forks": 14684,
     "language": "Python"
   },
   {
     "full_name": "github/spec-kit",
     "html_url": "https://github.com/github/spec-kit",
     "description": "💫 Toolkit to help you get started with SDD or any other process!",
-    "stars": 151080,
-    "forks": 13570,
+    "stars": 151227,
+    "forks": 13585,
     "language": "Python"
   },
   {
     "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "html_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "stars": 144824,
-    "forks": 34643,
+    "stars": 144836,
+    "forks": 34632,
     "language": "-"
   },
   {
     "full_name": "garrytan/gstack",
     "html_url": "https://github.com/garrytan/gstack",
     "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-    "stars": 142425,
-    "forks": 21017,
+    "stars": 142523,
+    "forks": 21026,
     "language": "TypeScript"
   },
   {
     "full_name": "openai/codex",
     "html_url": "https://github.com/openai/codex",
     "description": "Lightweight coding agent that runs in your terminal",
-    "stars": 136195,
-    "forks": 21610,
+    "stars": 136297,
+    "forks": 21626,
     "language": "Rust"
   },
   {
     "full_name": "stablyai/orca",
     "html_url": "https://github.com/stablyai/orca",
     "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
-    "stars": 133736,
-    "forks": 8548,
+    "stars": 135272,
+    "forks": 8648,
     "language": "TypeScript"
   },
   {
     "full_name": "VoltAgent/awesome-design-md",
     "html_url": "https://github.com/VoltAgent/awesome-design-md",
     "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-    "stars": 128708,
-    "forks": 14189,
+    "stars": 128867,
+    "forks": 14198,
     "language": "-"
   },
   {
     "full_name": "earendil-works/pi",
     "html_url": "https://github.com/earendil-works/pi",
     "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "stars": 123446,
-    "forks": 15934,
+    "stars": 123644,
+    "forks": 15972,
     "language": "TypeScript"
   },
   {
     "full_name": "JuliusBrussee/caveman",
     "html_url": "https://github.com/JuliusBrussee/caveman",
     "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-    "stars": 122268,
-    "forks": 7138,
+    "stars": 122552,
+    "forks": 7153,
     "language": "Go"
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 120380,
-    "forks": 8067,
+    "stars": 120909,
+    "forks": 8116,
     "language": "JavaScript"
   },
   {
     "full_name": "addyosmani/agent-skills",
     "html_url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 119885,
-    "forks": 12456,
+    "stars": 120110,
+    "forks": 12482,
     "language": "JavaScript"
   },
   {
     "full_name": "thedotmack/claude-mem",
     "html_url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 119182,
-    "forks": 10354,
+    "stars": 119436,
+    "forks": 10378,
     "language": "TypeScript"
   },
   {
     "full_name": "debpalash/VoiceStudio",
     "html_url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "stars": 116818,
-    "forks": 13005,
+    "stars": 117523,
+    "forks": 13112,
     "language": "Python"
   },
   {
     "full_name": "paperclipai/paperclip",
     "html_url": "https://github.com/paperclipai/paperclip",
     "description": "The open-source app everyone uses to manage agents at work",
-    "stars": 116121,
-    "forks": 19288,
+    "stars": 116566,
+    "forks": 19349,
     "language": "TypeScript"
   }
 ]
