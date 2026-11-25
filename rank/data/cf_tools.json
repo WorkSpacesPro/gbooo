@@ -3,15 +3,15 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7297,
-    "forks": 5417,
+    "stars": 7296,
+    "forks": 5421,
     "language": "TypeScript"
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2211,
+    "stars": 2212,
     "forks": 145,
     "language": "TypeScript"
   },
@@ -19,7 +19,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 754,
+    "stars": 755,
     "forks": 19,
     "language": "TypeScript"
   },
@@ -80,18 +80,18 @@
     "language": "TypeScript"
   },
   {
+    "full_name": "qiayue/pvuv.ai",
+    "html_url": "https://github.com/qiayue/pvuv.ai",
+    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
+    "stars": 107,
+    "forks": 52,
+    "language": "TypeScript"
+  },
+  {
     "full_name": "Shudesu/x-harness-oss",
     "html_url": "https://github.com/Shudesu/x-harness-oss",
     "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
     "stars": 106,
-    "forks": 47,
-    "language": "TypeScript"
-  },
-  {
-    "full_name": "qiayue/pvuv.ai",
-    "html_url": "https://github.com/qiayue/pvuv.ai",
-    "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 105,
     "forks": 47,
     "language": "TypeScript"
   },
