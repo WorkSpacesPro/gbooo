@@ -3,7 +3,7 @@
     "full_name": "xyTom/Url-Shorten-Worker",
     "html_url": "https://github.com/xyTom/Url-Shorten-Worker",
     "description": "A URL Shortener created using Cloudflare worker",
-    "stars": 1788,
+    "stars": 1789,
     "forks": 1297,
     "language": "JavaScript"
   },
@@ -11,7 +11,7 @@
     "full_name": "x-dr/short",
     "html_url": "https://github.com/x-dr/short",
     "description": "一个使用 Cloudflare Pages 创建的 URL 缩短器。A URL Shortener created using Cloudflare Pages",
-    "stars": 444,
+    "stars": 443,
     "forks": 797,
     "language": "HTML"
   },
@@ -37,6 +37,14 @@
     "description": "A URL Shortener built on Cloudflare Developer Platform",
     "stars": 111,
     "forks": 24,
+    "language": "TypeScript"
+  },
+  {
+    "full_name": "Agenty/shortener",
+    "html_url": "https://github.com/Agenty/shortener",
+    "description": "An open-source URL shortener to create shorten link with Cloudflare worker and pages. Deploy on Cloudflare for custom domain for free!",
+    "stars": 107,
+    "forks": 64,
     "language": "TypeScript"
   },
   {

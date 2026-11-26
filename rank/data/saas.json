@@ -3,23 +3,23 @@
     "full_name": "wasp-lang/open-saas",
     "html_url": "https://github.com/wasp-lang/open-saas",
     "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
-    "stars": 16425,
-    "forks": 1986,
+    "stars": 16432,
+    "forks": 1987,
     "language": "MDX"
   },
   {
     "full_name": "ixartz/SaaS-Boilerplate",
     "html_url": "https://github.com/ixartz/SaaS-Boilerplate",
     "description": "🚀🎉📚 SaaS Boilerplate built with Next.js + Tailwind CSS + Shadcn UI + TypeScript. ⚡️ Full-stack React application with Auth, Multi-tenancy, Roles & Permissions, i18n, Landing Page, DB, Logging, Testing",
-    "stars": 7493,
-    "forks": 1339,
+    "stars": 7495,
+    "forks": 1340,
     "language": "TypeScript"
   },
   {
     "full_name": "thedevdojo/wave",
     "html_url": "https://github.com/thedevdojo/wave",
     "description": "Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰",
-    "stars": 6548,
+    "stars": 6546,
     "forks": 909,
     "language": "PHP"
   },
@@ -27,7 +27,7 @@
     "full_name": "boxyhq/saas-starter-kit",
     "html_url": "https://github.com/boxyhq/saas-starter-kit",
     "description": "🔥 Enterprise SaaS Starter Kit - Kickstart your enterprise app development with the Next.js SaaS boilerplate 🚀",
-    "stars": 4972,
+    "stars": 4973,
     "forks": 1245,
     "language": "TypeScript"
   },
@@ -35,15 +35,15 @@
     "full_name": "async-labs/saas",
     "html_url": "https://github.com/async-labs/saas",
     "description": "Build your own SaaS business with SaaS boilerplate. Productive stack: React, Material-UI, Next, MobX, WebSockets, Express, Node, Mongoose, MongoDB. Written with TypeScript.",
-    "stars": 4535,
-    "forks": 742,
+    "stars": 4536,
+    "forks": 743,
     "language": "TypeScript"
   },
   {
     "full_name": "nextify-limited/saasfly",
     "html_url": "https://github.com/nextify-limited/saasfly",
     "description": "Your Next SaaS Template or Boilerplate ! A magic trip start with `bun create saasfly` . The more stars, the more surprises",
-    "stars": 2963,
+    "stars": 2962,
     "forks": 430,
     "language": "TypeScript"
   },

@@ -3,15 +3,15 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7296,
-    "forks": 5421,
+    "stars": 7297,
+    "forks": 5427,
     "language": "TypeScript"
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2212,
+    "stars": 2214,
     "forks": 145,
     "language": "TypeScript"
   },
@@ -19,7 +19,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 755,
+    "stars": 758,
     "forks": 19,
     "language": "TypeScript"
   },
@@ -35,7 +35,7 @@
     "full_name": "shivamanupadi/traks",
     "html_url": "https://github.com/shivamanupadi/traks",
     "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
-    "stars": 350,
+    "stars": 349,
     "forks": 28,
     "language": "TypeScript"
   },
@@ -83,7 +83,7 @@
     "full_name": "qiayue/pvuv.ai",
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
-    "stars": 107,
+    "stars": 112,
     "forks": 52,
     "language": "TypeScript"
   },
@@ -96,20 +96,20 @@
     "language": "TypeScript"
   },
   {
+    "full_name": "hayaran/Edgemetry",
+    "html_url": "https://github.com/hayaran/Edgemetry",
+    "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
+    "stars": 72,
+    "forks": 10,
+    "language": "TypeScript"
+  },
+  {
     "full_name": "YuriCrystal/relay",
     "html_url": "https://github.com/YuriCrystal/relay",
     "description": "Self-hosted link shortener with privacy-first click analytics & cookieless conversion tracking, on Cloudflare Workers + D1. A/B split, device & geo routing, /suffix source tracking, FB/GA4/GTM retargeting, unique visitors, CSV export, QR. Zero-build single-file admin. MIT.",
     "stars": 72,
     "forks": 26,
     "language": "HTML"
-  },
-  {
-    "full_name": "hayaran/Edgemetry",
-    "html_url": "https://github.com/hayaran/Edgemetry",
-    "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
-    "stars": 71,
-    "forks": 9,
-    "language": "TypeScript"
   },
   {
     "full_name": "cloudflare/cloudflare-grafana-app",
