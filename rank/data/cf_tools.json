@@ -3,16 +3,16 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7297,
-    "forks": 5427,
+    "stars": 7299,
+    "forks": 5430,
     "language": "TypeScript"
   },
   {
     "full_name": "benvinegar/counterscale",
     "html_url": "https://github.com/benvinegar/counterscale",
     "description": "Scalable web analytics you run yourself on Cloudflare",
-    "stars": 2214,
-    "forks": 145,
+    "stars": 2215,
+    "forks": 146,
     "language": "TypeScript"
   },
   {
@@ -35,8 +35,8 @@
     "full_name": "shivamanupadi/traks",
     "html_url": "https://github.com/shivamanupadi/traks",
     "description": "Self-hosted, privacy-friendly web analytics that deploys into your own Cloudflare account in two minutes. Free forever, MIT.",
-    "stars": 349,
-    "forks": 28,
+    "stars": 350,
+    "forks": 29,
     "language": "TypeScript"
   },
   {
@@ -84,14 +84,14 @@
     "html_url": "https://github.com/qiayue/pvuv.ai",
     "description": "PVUV.ai : Privacy-friendly, self-hosted web analytics with built-in invalid-traffic detection and AdSense protection. Runs on Cloudflare Workers + D1.",
     "stars": 112,
-    "forks": 52,
+    "forks": 53,
     "language": "TypeScript"
   },
   {
     "full_name": "Shudesu/x-harness-oss",
     "html_url": "https://github.com/Shudesu/x-harness-oss",
     "description": "X Harness — self-hosted X (Twitter) scheduling, DM and analytics on Cloudflare Workers, with MCP and TypeScript SDK. By Shudesu (野田修一).",
-    "stars": 106,
+    "stars": 107,
     "forks": 47,
     "language": "TypeScript"
   },
@@ -100,7 +100,7 @@
     "html_url": "https://github.com/hayaran/Edgemetry",
     "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
     "stars": 72,
-    "forks": 10,
+    "forks": 9,
     "language": "TypeScript"
   },
   {

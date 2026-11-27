@@ -3,450 +3,450 @@
     "full_name": "stablyai/orca",
     "html_url": "https://github.com/stablyai/orca",
     "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
-    "stars": 139318,
-    "forks": 8919,
+    "stars": 141559,
+    "forks": 9062,
     "language": "TypeScript",
-    "growth": 10053
+    "growth": 11221
   },
   {
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 479042,
-    "forks": 116494,
+    "stars": 480414,
+    "forks": 116723,
     "language": "TypeScript",
-    "growth": 10052
+    "growth": 9764
   },
   {
     "full_name": "Ebony-Vinyl/dsh-our-free-model",
     "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
     "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-    "stars": 87676,
-    "forks": 2482,
+    "stars": 88725,
+    "forks": 2508,
     "language": "JavaScript",
-    "growth": 7279
+    "growth": 7161
   },
   {
     "full_name": "firecrawl/firecrawl",
     "html_url": "https://github.com/firecrawl/firecrawl",
     "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-    "stars": 210453,
-    "forks": 11018,
+    "stars": 211260,
+    "forks": 11081,
     "language": "TypeScript",
-    "growth": 6982
+    "growth": 6605
   },
   {
     "full_name": "mattpocock/skills",
     "html_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 333206,
-    "forks": 28028,
+    "stars": 333927,
+    "forks": 28103,
     "language": "Shell",
-    "growth": 5467
+    "growth": 5484
   },
   {
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 326990,
-    "forks": 29003,
+    "stars": 327859,
+    "forks": 29106,
     "language": "Shell",
-    "growth": 5402
-  },
-  {
-    "full_name": "debpalash/VoiceStudio",
-    "html_url": "https://github.com/debpalash/VoiceStudio",
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "stars": 118649,
-    "forks": 13235,
-    "language": "Python",
-    "growth": 4895
-  },
-  {
-    "full_name": "ccch1mneyyy/dsh-Go",
-    "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
-    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "stars": 32349,
-    "forks": 1562,
-    "language": "Dart",
-    "growth": 4656
+    "growth": 5449
   },
   {
     "full_name": "DietrichGebert/ponytail",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 199026,
-    "forks": 11293,
+    "stars": 199623,
+    "forks": 11344,
     "language": "JavaScript",
-    "growth": 4566
+    "growth": 4451
   },
   {
-    "full_name": "affaan-m/ECC",
-    "html_url": "https://github.com/affaan-m/ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 310954,
-    "forks": 45681,
-    "language": "JavaScript",
-    "growth": 4102
+    "full_name": "ccch1mneyyy/dsh-Go",
+    "html_url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "stars": 33018,
+    "forks": 1596,
+    "language": "Dart",
+    "growth": 4398
+  },
+  {
+    "full_name": "debpalash/VoiceStudio",
+    "html_url": "https://github.com/debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "stars": 119113,
+    "forks": 13300,
+    "language": "Python",
+    "growth": 4242
   },
   {
     "full_name": "pbakaus/impeccable",
     "html_url": "https://github.com/pbakaus/impeccable",
     "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-    "stars": 117189,
-    "forks": 7015,
+    "stars": 117765,
+    "forks": 7058,
     "language": "Rust",
-    "growth": 4043
+    "growth": 4060
+  },
+  {
+    "full_name": "affaan-m/ECC",
+    "html_url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars": 311495,
+    "forks": 45762,
+    "language": "JavaScript",
+    "growth": 4035
   },
   {
     "full_name": "sindresorhus/awesome",
     "html_url": "https://github.com/sindresorhus/awesome",
     "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-    "stars": 543053,
-    "forks": 38696,
+    "stars": 543669,
+    "forks": 38720,
     "language": "-",
-    "growth": 3839
+    "growth": 3966
   },
   {
     "full_name": "sherlock-project/sherlock",
     "html_url": "https://github.com/sherlock-project/sherlock",
     "description": "Hunt down social media accounts by username across social networks",
-    "stars": 117799,
-    "forks": 13442,
+    "stars": 118333,
+    "forks": 13498,
     "language": "Python",
-    "growth": 3433
-  },
-  {
-    "full_name": "deepseek-ai/deepseek-harness",
-    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-    "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 287329,
-    "forks": 35860,
-    "language": "TypeScript",
-    "growth": 3370
+    "growth": 3522
   },
   {
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 200756,
-    "forks": 23473,
+    "stars": 201254,
+    "forks": 23552,
     "language": "Python",
-    "growth": 3315
+    "growth": 3404
+  },
+  {
+    "full_name": "deepseek-ai/deepseek-harness",
+    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+    "description": "DeepSeek Harness: Everything is a Plugin.",
+    "stars": 287873,
+    "forks": 35944,
+    "language": "TypeScript",
+    "growth": 3395
   },
   {
     "full_name": "Graphify-Labs/graphify",
     "html_url": "https://github.com/Graphify-Labs/graphify",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "stars": 153578,
-    "forks": 14766,
+    "stars": 154038,
+    "forks": 14825,
     "language": "Python",
-    "growth": 3232
+    "growth": 3202
   },
   {
     "full_name": "Leonxlnx/taste-skill",
     "html_url": "https://github.com/Leonxlnx/taste-skill",
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "stars": 121750,
-    "forks": 8186,
+    "stars": 122145,
+    "forks": 8233,
     "language": "JavaScript",
-    "growth": 3096
+    "growth": 3058
   },
   {
     "full_name": "cloudflare/security-audit-skill",
     "html_url": "https://github.com/cloudflare/security-audit-skill",
     "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "stars": 78534,
-    "forks": 5312,
+    "stars": 79015,
+    "forks": 5358,
     "language": "JavaScript",
-    "growth": 2990
+    "growth": 3002
   },
   {
     "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
     "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-    "stars": 154420,
-    "forks": 16259,
+    "stars": 154831,
+    "forks": 16308,
     "language": "Python",
-    "growth": 2885
+    "growth": 2873
   },
   {
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 63019,
-    "forks": 7605,
+    "stars": 63621,
+    "forks": 7671,
     "language": "Python",
-    "growth": 2355
+    "growth": 2681
+  },
+  {
+    "full_name": "simplexai-labs/linger",
+    "html_url": "https://github.com/simplexai-labs/linger",
+    "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+    "stars": 5005,
+    "forks": 472,
+    "language": "TypeScript",
+    "growth": 2629
   },
   {
     "full_name": "tt-a1i/archify",
     "html_url": "https://github.com/tt-a1i/archify",
     "description": "Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.",
-    "stars": 100227,
-    "forks": 6855,
+    "stars": 100757,
+    "forks": 6905,
     "language": "JavaScript",
-    "growth": 2336
-  },
-  {
-    "full_name": "paperclipai/paperclip",
-    "html_url": "https://github.com/paperclipai/paperclip",
-    "description": "The open-source app everyone uses to manage agents at work",
-    "stars": 117207,
-    "forks": 19481,
-    "language": "TypeScript",
-    "growth": 2300
-  },
-  {
-    "full_name": "alibaba/open-code-review",
-    "html_url": "https://github.com/alibaba/open-code-review",
-    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "stars": 56477,
-    "forks": 4668,
-    "language": "Go",
-    "growth": 2203
-  },
-  {
-    "full_name": "awesome-selfhosted/awesome-selfhosted",
-    "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 340617,
-    "forks": 15949,
-    "language": "-",
-    "growth": 2118
+    "growth": 2572
   },
   {
     "full_name": "LadybirdBrowser/ladybird",
     "html_url": "https://github.com/LadybirdBrowser/ladybird",
     "description": "Truly independent web browser",
-    "stars": 69294,
-    "forks": 3314,
+    "stars": 69588,
+    "forks": 3334,
     "language": "Rust",
-    "growth": 2084
+    "growth": 2355
   },
   {
-    "full_name": "hugohe3/ppt-master",
-    "html_url": "https://github.com/hugohe3/ppt-master",
-    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-    "stars": 80378,
-    "forks": 6254,
-    "language": "Python",
-    "growth": 1913
+    "full_name": "alibaba/open-code-review",
+    "html_url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "stars": 56776,
+    "forks": 4698,
+    "language": "Go",
+    "growth": 2273
   },
   {
-    "full_name": "codecrafters-io/build-your-own-x",
-    "html_url": "https://github.com/codecrafters-io/build-your-own-x",
-    "description": "Master programming by recreating your favorite technologies from scratch.",
-    "stars": 565648,
-    "forks": 52848,
-    "language": "Markdown",
-    "growth": 1858
+    "full_name": "awesome-selfhosted/awesome-selfhosted",
+    "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+    "stars": 340928,
+    "forks": 15958,
+    "language": "-",
+    "growth": 2152
+  },
+  {
+    "full_name": "paperclipai/paperclip",
+    "html_url": "https://github.com/paperclipai/paperclip",
+    "description": "The open-source app everyone uses to manage agents at work",
+    "stars": 117476,
+    "forks": 19549,
+    "language": "TypeScript",
+    "growth": 2150
   },
   {
     "full_name": "OpenMontageInc/OpenMontage",
     "html_url": "https://github.com/OpenMontageInc/OpenMontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "stars": 83486,
-    "forks": 11386,
+    "stars": 83753,
+    "forks": 11419,
     "language": "Python",
-    "growth": 1843
+    "growth": 1914
+  },
+  {
+    "full_name": "hugohe3/ppt-master",
+    "html_url": "https://github.com/hugohe3/ppt-master",
+    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+    "stars": 80667,
+    "forks": 6278,
+    "language": "Python",
+    "growth": 1899
   },
   {
     "full_name": "trimstray/the-book-of-secret-knowledge",
     "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-    "stars": 261455,
-    "forks": 14982,
+    "stars": 261744,
+    "forks": 14996,
     "language": "-",
-    "growth": 1842
+    "growth": 1894
+  },
+  {
+    "full_name": "codecrafters-io/build-your-own-x",
+    "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "stars": 565869,
+    "forks": 52864,
+    "language": "Markdown",
+    "growth": 1835
   },
   {
     "full_name": "yt-dlp/yt-dlp",
     "html_url": "https://github.com/yt-dlp/yt-dlp",
     "description": "A feature-rich command-line audio/video downloader",
-    "stars": 210847,
-    "forks": 18674,
+    "stars": 211105,
+    "forks": 18699,
     "language": "Python",
-    "growth": 1791
+    "growth": 1818
   },
   {
     "full_name": "Panniantong/Agent-Reach",
     "html_url": "https://github.com/Panniantong/Agent-Reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "stars": 114869,
-    "forks": 10317,
+    "stars": 115204,
+    "forks": 10362,
     "language": "Python",
-    "growth": 1707
-  },
-  {
-    "full_name": "microsoft/markitdown",
-    "html_url": "https://github.com/microsoft/markitdown",
-    "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 198534,
-    "forks": 15071,
-    "language": "Python",
-    "growth": 1688
-  },
-  {
-    "full_name": "farion1231/cc-switch",
-    "html_url": "https://github.com/farion1231/cc-switch",
-    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
-    "stars": 157353,
-    "forks": 10269,
-    "language": "Rust",
-    "growth": 1651
+    "growth": 1764
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 266226,
-    "forks": 60395,
+    "stars": 266519,
+    "forks": 60473,
     "language": "Python",
-    "growth": 1619
+    "growth": 1663
   },
   {
-    "full_name": "JuliusBrussee/caveman",
-    "html_url": "https://github.com/JuliusBrussee/caveman",
-    "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
-    "stars": 122966,
-    "forks": 7191,
-    "language": "Go",
-    "growth": 1561
+    "full_name": "farion1231/cc-switch",
+    "html_url": "https://github.com/farion1231/cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+    "stars": 157587,
+    "forks": 10297,
+    "language": "Rust",
+    "growth": 1633
   },
   {
     "full_name": "thedotmack/claude-mem",
     "html_url": "https://github.com/thedotmack/claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 119863,
-    "forks": 10423,
+    "stars": 120091,
+    "forks": 10449,
     "language": "TypeScript",
-    "growth": 1558
+    "growth": 1562
   },
   {
     "full_name": "clash-verge-rev/clash-verge-rev",
     "html_url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-    "stars": 160826,
-    "forks": 11570,
+    "stars": 161062,
+    "forks": 11591,
     "language": "TypeScript",
-    "growth": 1514
+    "growth": 1550
   },
   {
-    "full_name": "addyosmani/agent-skills",
-    "html_url": "https://github.com/addyosmani/agent-skills",
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "stars": 120515,
-    "forks": 12538,
-    "language": "JavaScript",
-    "growth": 1472
+    "full_name": "microsoft/markitdown",
+    "html_url": "https://github.com/microsoft/markitdown",
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "stars": 198678,
+    "forks": 15091,
+    "language": "Python",
+    "growth": 1545
+  },
+  {
+    "full_name": "JuliusBrussee/caveman",
+    "html_url": "https://github.com/JuliusBrussee/caveman",
+    "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+    "stars": 123193,
+    "forks": 7210,
+    "language": "Go",
+    "growth": 1540
   },
   {
     "full_name": "vinta/awesome-python",
     "html_url": "https://github.com/vinta/awesome-python",
     "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "stars": 337225,
-    "forks": 29148,
+    "stars": 337432,
+    "forks": 29153,
     "language": "Python",
-    "growth": 1454
-  },
-  {
-    "full_name": "multica-ai/andrej-karpathy-skills",
-    "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "stars": 235812,
-    "forks": 23383,
-    "language": "-",
-    "growth": 1442
+    "growth": 1480
   },
   {
     "full_name": "521xueweihan/HelloGitHub",
     "html_url": "https://github.com/521xueweihan/HelloGitHub",
     "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-    "stars": 191362,
-    "forks": 13400,
+    "stars": 191553,
+    "forks": 13407,
     "language": "Python",
-    "growth": 1426
-  },
-  {
-    "full_name": "rustdesk/rustdesk",
-    "html_url": "https://github.com/rustdesk/rustdesk",
-    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-    "stars": 131565,
-    "forks": 21269,
-    "language": "Rust",
-    "growth": 1399
-  },
-  {
-    "full_name": "public-apis/public-apis",
-    "html_url": "https://github.com/public-apis/public-apis",
-    "description": "A collective list of free APIs",
-    "stars": 501559,
-    "forks": 56419,
-    "language": "Python",
-    "growth": 1392
-  },
-  {
-    "full_name": "anomalyco/opencode",
-    "html_url": "https://github.com/anomalyco/opencode",
-    "description": "The open source coding agent.",
-    "stars": 229300,
-    "forks": 31218,
-    "language": "TypeScript",
-    "growth": 1388
-  },
-  {
-    "full_name": "multica-ai/multica",
-    "html_url": "https://github.com/multica-ai/multica",
-    "description": "Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.",
-    "stars": 58032,
-    "forks": 7631,
-    "language": "Go",
-    "growth": 1337
-  },
-  {
-    "full_name": "avelino/awesome-go",
-    "html_url": "https://github.com/avelino/awesome-go",
-    "description": "A curated list of awesome Go frameworks, libraries and software",
-    "stars": 196047,
-    "forks": 13773,
-    "language": "Go",
-    "growth": 1306
-  },
-  {
-    "full_name": "openvinotoolkit/openvino",
-    "html_url": "https://github.com/openvinotoolkit/openvino",
-    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-    "stars": 12726,
-    "forks": 3718,
-    "language": "C++",
-    "growth": 1294
-  },
-  {
-    "full_name": "career-ops-hq/career-ops",
-    "html_url": "https://github.com/career-ops-hq/career-ops",
-    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
-    "stars": 84941,
-    "forks": 15545,
-    "language": "JavaScript",
-    "growth": 1288
+    "growth": 1438
   },
   {
     "full_name": "ZhuLinsen/daily_stock_analysis",
     "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "stars": 74680,
-    "forks": 58664,
+    "stars": 74949,
+    "forks": 58835,
     "language": "Python",
-    "growth": 1241
+    "growth": 1424
   },
   {
-    "full_name": "bojieli/ai-agent-book",
-    "html_url": "https://github.com/bojieli/ai-agent-book",
-    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-    "stars": 59982,
-    "forks": 7050,
+    "full_name": "addyosmani/agent-skills",
+    "html_url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "stars": 120694,
+    "forks": 12555,
+    "language": "JavaScript",
+    "growth": 1423
+  },
+  {
+    "full_name": "multica-ai/andrej-karpathy-skills",
+    "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "stars": 236013,
+    "forks": 23408,
+    "language": "-",
+    "growth": 1417
+  },
+  {
+    "full_name": "anomalyco/opencode",
+    "html_url": "https://github.com/anomalyco/opencode",
+    "description": "The open source coding agent.",
+    "stars": 229521,
+    "forks": 31259,
+    "language": "TypeScript",
+    "growth": 1385
+  },
+  {
+    "full_name": "rustdesk/rustdesk",
+    "html_url": "https://github.com/rustdesk/rustdesk",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+    "stars": 131774,
+    "forks": 21329,
+    "language": "Rust",
+    "growth": 1360
+  },
+  {
+    "full_name": "avelino/awesome-go",
+    "html_url": "https://github.com/avelino/awesome-go",
+    "description": "A curated list of awesome Go frameworks, libraries and software",
+    "stars": 196244,
+    "forks": 13782,
+    "language": "Go",
+    "growth": 1342
+  },
+  {
+    "full_name": "public-apis/public-apis",
+    "html_url": "https://github.com/public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "stars": 501727,
+    "forks": 56465,
     "language": "Python",
-    "growth": 1195
+    "growth": 1325
+  },
+  {
+    "full_name": "multica-ai/multica",
+    "html_url": "https://github.com/multica-ai/multica",
+    "description": "Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.",
+    "stars": 58167,
+    "forks": 7650,
+    "language": "Go",
+    "growth": 1305
+  },
+  {
+    "full_name": "career-ops-hq/career-ops",
+    "html_url": "https://github.com/career-ops-hq/career-ops",
+    "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
+    "stars": 85132,
+    "forks": 15579,
+    "language": "JavaScript",
+    "growth": 1267
+  },
+  {
+    "full_name": "openvinotoolkit/openvino",
+    "html_url": "https://github.com/openvinotoolkit/openvino",
+    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "stars": 12881,
+    "forks": 3764,
+    "language": "C++",
+    "growth": 1233
   }
 ]

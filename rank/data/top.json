@@ -3,367 +3,367 @@
     "full_name": "codecrafters-io/build-your-own-x",
     "html_url": "https://github.com/codecrafters-io/build-your-own-x",
     "description": "Master programming by recreating your favorite technologies from scratch.",
-    "stars": 565648,
-    "forks": 52848,
+    "stars": 565869,
+    "forks": 52864,
     "language": "Markdown"
   },
   {
     "full_name": "sindresorhus/awesome",
     "html_url": "https://github.com/sindresorhus/awesome",
     "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
-    "stars": 543053,
-    "forks": 38696,
+    "stars": 543669,
+    "forks": 38720,
     "language": "-"
   },
   {
     "full_name": "public-apis/public-apis",
     "html_url": "https://github.com/public-apis/public-apis",
     "description": "A collective list of free APIs",
-    "stars": 501559,
-    "forks": 56419,
+    "stars": 501727,
+    "forks": 56465,
     "language": "Python"
   },
   {
     "full_name": "morluto/rea",
     "html_url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "stars": 479041,
-    "forks": 116494,
+    "stars": 480414,
+    "forks": 116723,
     "language": "TypeScript"
   },
   {
     "full_name": "freeCodeCamp/freeCodeCamp",
     "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "stars": 459660,
-    "forks": 47382,
+    "stars": 459698,
+    "forks": 47394,
     "language": "TypeScript"
   },
   {
     "full_name": "EbookFoundation/free-programming-books",
     "html_url": "https://github.com/EbookFoundation/free-programming-books",
     "description": ":books: Freely available programming books",
-    "stars": 402311,
-    "forks": 67245,
+    "stars": 402356,
+    "forks": 67264,
     "language": "Python"
   },
   {
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
-    "stars": 395261,
-    "forks": 82984,
+    "stars": 395322,
+    "forks": 83012,
     "language": "TypeScript"
   },
   {
     "full_name": "donnemartin/system-design-primer",
     "html_url": "https://github.com/donnemartin/system-design-primer",
     "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-    "stars": 379305,
-    "forks": 59368,
+    "stars": 379418,
+    "forks": 59392,
     "language": "Python"
   },
   {
     "full_name": "nilbuild/developer-roadmap",
     "html_url": "https://github.com/nilbuild/developer-roadmap",
     "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "stars": 372805,
-    "forks": 45404,
+    "stars": 372862,
+    "forks": 45454,
     "language": "TypeScript"
   },
   {
     "full_name": "jwasham/coding-interview-university",
     "html_url": "https://github.com/jwasham/coding-interview-university",
     "description": "A complete computer science study plan to become a software engineer.",
-    "stars": 365084,
-    "forks": 85244,
+    "stars": 365128,
+    "forks": 85270,
     "language": "-"
   },
   {
     "full_name": "awesome-selfhosted/awesome-selfhosted",
     "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 340617,
-    "forks": 15949,
+    "stars": 340928,
+    "forks": 15958,
     "language": "-"
   },
   {
     "full_name": "vinta/awesome-python",
     "html_url": "https://github.com/vinta/awesome-python",
     "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "stars": 337225,
-    "forks": 29148,
+    "stars": 337432,
+    "forks": 29153,
     "language": "Python"
   },
   {
     "full_name": "mattpocock/skills",
     "html_url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "stars": 333206,
-    "forks": 28028,
+    "stars": 333927,
+    "forks": 28103,
     "language": "Shell"
   },
   {
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
-    "stars": 326990,
-    "forks": 29003,
+    "stars": 327859,
+    "forks": 29106,
     "language": "Shell"
   },
   {
     "full_name": "affaan-m/ECC",
     "html_url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 310954,
-    "forks": 45681,
+    "stars": 311495,
+    "forks": 45762,
     "language": "JavaScript"
   },
   {
     "full_name": "practical-tutorials/project-based-learning",
     "html_url": "https://github.com/practical-tutorials/project-based-learning",
     "description": "Curated list of project-based tutorials",
-    "stars": 290521,
-    "forks": 36878,
+    "stars": 290572,
+    "forks": 36885,
     "language": "Python"
   },
   {
     "full_name": "deepseek-ai/deepseek-harness",
     "html_url": "https://github.com/deepseek-ai/deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
-    "stars": 287328,
-    "forks": 35860,
+    "stars": 287873,
+    "forks": 35944,
     "language": "TypeScript"
   },
   {
     "full_name": "996icu/996.ICU",
     "html_url": "https://github.com/996icu/996.ICU",
     "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
-    "stars": 277252,
-    "forks": 20616,
+    "stars": 277255,
+    "forks": 20612,
     "language": "-"
   },
   {
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 266226,
-    "forks": 60395,
+    "stars": 266519,
+    "forks": 60473,
     "language": "Python"
   },
   {
     "full_name": "trimstray/the-book-of-secret-knowledge",
     "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-    "stars": 261455,
-    "forks": 14982,
+    "stars": 261744,
+    "forks": 14996,
     "language": "-"
   },
   {
     "full_name": "torvalds/linux",
     "html_url": "https://github.com/torvalds/linux",
     "description": "Linux kernel source tree",
-    "stars": 256817,
-    "forks": 66723,
+    "stars": 256954,
+    "forks": 66783,
     "language": "C"
   },
   {
     "full_name": "react/react",
     "html_url": "https://github.com/react/react",
     "description": "The library for web and native user interfaces.",
-    "stars": 252977,
-    "forks": 51825,
+    "stars": 253014,
+    "forks": 51859,
     "language": "JavaScript"
   },
   {
     "full_name": "multica-ai/andrej-karpathy-skills",
     "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "stars": 235812,
-    "forks": 23383,
+    "stars": 236013,
+    "forks": 23408,
     "language": "-"
   },
   {
     "full_name": "anomalyco/opencode",
     "html_url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
-    "stars": 229300,
-    "forks": 31218,
+    "stars": 229521,
+    "forks": 31259,
     "language": "TypeScript"
   },
   {
     "full_name": "TheAlgorithms/Python",
     "html_url": "https://github.com/TheAlgorithms/Python",
     "description": "All Algorithms implemented in Python",
-    "stars": 226479,
-    "forks": 51353,
+    "stars": 226498,
+    "forks": 51350,
     "language": "Python"
   },
   {
     "full_name": "vuejs/vue",
     "html_url": "https://github.com/vuejs/vue",
     "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
-    "stars": 212555,
-    "forks": 33642,
+    "stars": 212551,
+    "forks": 33644,
     "language": "TypeScript"
   },
   {
     "full_name": "n8n-io/n8n",
     "html_url": "https://github.com/n8n-io/n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "stars": 212195,
-    "forks": 61666,
+    "stars": 212390,
+    "forks": 61688,
     "language": "TypeScript"
   },
   {
     "full_name": "ossu/computer-science",
     "html_url": "https://github.com/ossu/computer-science",
     "description": "🎓 Path to a free self-taught education in Computer Science!",
-    "stars": 211580,
-    "forks": 26162,
+    "stars": 211615,
+    "forks": 26161,
     "language": "HTML"
-  },
-  {
-    "full_name": "yt-dlp/yt-dlp",
-    "html_url": "https://github.com/yt-dlp/yt-dlp",
-    "description": "A feature-rich command-line audio/video downloader",
-    "stars": 210846,
-    "forks": 18674,
-    "language": "Python"
   },
   {
     "full_name": "firecrawl/firecrawl",
     "html_url": "https://github.com/firecrawl/firecrawl",
     "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-    "stars": 210453,
-    "forks": 11018,
+    "stars": 211260,
+    "forks": 11081,
     "language": "TypeScript"
+  },
+  {
+    "full_name": "yt-dlp/yt-dlp",
+    "html_url": "https://github.com/yt-dlp/yt-dlp",
+    "description": "A feature-rich command-line audio/video downloader",
+    "stars": 211104,
+    "forks": 18699,
+    "language": "Python"
   },
   {
     "full_name": "DigitalPlatDev/FreeDomain",
     "html_url": "https://github.com/DigitalPlatDev/FreeDomain",
     "description": "Free domain registration and practical DNS learning resources for everyone.",
-    "stars": 209307,
-    "forks": 4697,
+    "stars": 209401,
+    "forks": 4705,
     "language": "Markdown"
   },
   {
     "full_name": "tensorflow/tensorflow",
     "html_url": "https://github.com/tensorflow/tensorflow",
     "description": "An Open Source Machine Learning Framework for Everyone",
-    "stars": 201843,
-    "forks": 77375,
+    "stars": 201876,
+    "forks": 77376,
     "language": "C++"
-  },
-  {
-    "full_name": "massgravel/Microsoft-Activation-Scripts",
-    "html_url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-    "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
-    "stars": 201022,
-    "forks": 18978,
-    "language": "Batchfile"
   },
   {
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "description": "Public repository for Agent Skills",
-    "stars": 200756,
-    "forks": 23473,
+    "stars": 201254,
+    "forks": 23552,
     "language": "Python"
+  },
+  {
+    "full_name": "massgravel/Microsoft-Activation-Scripts",
+    "html_url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+    "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+    "stars": 201117,
+    "forks": 18984,
+    "language": "Batchfile"
   },
   {
     "full_name": "DietrichGebert/ponytail",
     "html_url": "https://github.com/DietrichGebert/ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "stars": 199025,
-    "forks": 11293,
+    "stars": 199623,
+    "forks": 11344,
     "language": "JavaScript"
   },
   {
     "full_name": "microsoft/markitdown",
     "html_url": "https://github.com/microsoft/markitdown",
     "description": "Python tool for converting files and office documents to Markdown.",
-    "stars": 198534,
-    "forks": 15071,
+    "stars": 198678,
+    "forks": 15091,
     "language": "Python"
   },
   {
     "full_name": "trekhleb/javascript-algorithms",
     "html_url": "https://github.com/trekhleb/javascript-algorithms",
     "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-    "stars": 196768,
-    "forks": 30947,
+    "stars": 196763,
+    "forks": 30946,
     "language": "JavaScript"
   },
   {
     "full_name": "avelino/awesome-go",
     "html_url": "https://github.com/avelino/awesome-go",
     "description": "A curated list of awesome Go frameworks, libraries and software",
-    "stars": 196047,
-    "forks": 13773,
+    "stars": 196244,
+    "forks": 13782,
     "language": "Go"
   },
   {
     "full_name": "microsoft/vscode",
     "html_url": "https://github.com/microsoft/vscode",
     "description": "Visual Studio Code",
-    "stars": 195829,
-    "forks": 43874,
+    "stars": 195860,
+    "forks": 43875,
     "language": "TypeScript"
   },
   {
     "full_name": "ultraworkers/claw-code",
     "html_url": "https://github.com/ultraworkers/claw-code",
     "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
-    "stars": 194721,
-    "forks": 107076,
+    "stars": 194717,
+    "forks": 107060,
     "language": "Rust"
   },
   {
     "full_name": "521xueweihan/HelloGitHub",
     "html_url": "https://github.com/521xueweihan/HelloGitHub",
     "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-    "stars": 191362,
-    "forks": 13400,
+    "stars": 191553,
+    "forks": 13407,
     "language": "Python"
   },
   {
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "stars": 190902,
+    "stars": 190944,
     "forks": 27126,
     "language": "Shell"
-  },
-  {
-    "full_name": "Significant-Gravitas/AutoGPT",
-    "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "stars": 188202,
-    "forks": 45830,
-    "language": "Python"
   },
   {
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "stars": 188179,
-    "forks": 19213,
+    "stars": 188286,
+    "forks": 19225,
     "language": "Go"
+  },
+  {
+    "full_name": "Significant-Gravitas/AutoGPT",
+    "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "stars": 188204,
+    "forks": 45835,
+    "language": "Python"
   },
   {
     "full_name": "jackfrued/Python-100-Days",
     "html_url": "https://github.com/jackfrued/Python-100-Days",
     "description": "Python - 100天从新手到大师",
-    "stars": 188031,
-    "forks": 55666,
+    "stars": 188030,
+    "forks": 55660,
     "language": "Jupyter Notebook"
   },
   {
     "full_name": "CyC2018/CS-Notes",
     "html_url": "https://github.com/CyC2018/CS-Notes",
     "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-    "stars": 186599,
+    "stars": 186604,
     "forks": 50582,
     "language": "JavaScript"
   },
@@ -371,32 +371,32 @@
     "full_name": "getify/You-Dont-Know-JS",
     "html_url": "https://github.com/getify/You-Dont-Know-JS",
     "description": "A book series (2 published editions) on the JS language.",
-    "stars": 184849,
-    "forks": 33297,
+    "stars": 184842,
+    "forks": 33296,
     "language": "-"
   },
   {
     "full_name": "flutter/flutter",
     "html_url": "https://github.com/flutter/flutter",
     "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "stars": 181520,
-    "forks": 32031,
+    "stars": 181562,
+    "forks": 32028,
     "language": "Dart"
   },
   {
     "full_name": "f/prompts.chat",
     "html_url": "https://github.com/f/prompts.chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "stars": 178546,
-    "forks": 22757,
+    "stars": 178650,
+    "forks": 22763,
     "language": "MDX"
   },
   {
     "full_name": "github/gitignore",
     "html_url": "https://github.com/github/gitignore",
     "description": "A collection of useful .gitignore templates",
-    "stars": 176471,
-    "forks": 81992,
+    "stars": 176472,
+    "forks": 81989,
     "language": "-"
   }
 ]

@@ -3,16 +3,16 @@
     "full_name": "honojs/hono",
     "html_url": "https://github.com/honojs/hono",
     "description": "Web framework built on Web Standards",
-    "stars": 33087,
-    "forks": 1501,
+    "stars": 33111,
+    "forks": 1507,
     "language": "TypeScript"
   },
   {
     "full_name": "supermemoryai/supermemory",
     "html_url": "https://github.com/supermemoryai/supermemory",
     "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-    "stars": 31789,
-    "forks": 2786,
+    "stars": 31865,
+    "forks": 2787,
     "language": "TypeScript"
   },
   {
@@ -27,24 +27,24 @@
     "full_name": "yonggekkk/Cloudflare-vless-trojan",
     "html_url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
     "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-    "stars": 16835,
-    "forks": 9908,
+    "stars": 16840,
+    "forks": 9907,
     "language": "JavaScript"
   },
   {
     "full_name": "maillab/cloud-mail",
     "html_url": "https://github.com/maillab/cloud-mail",
     "description": "An all-in-one email service platform powered by Cloudflare  \\| 基于 Cloudflare 的一站式邮箱服务平台  \\| Cloudflare Email 邮箱 Mail",
-    "stars": 16591,
-    "forks": 24198,
+    "stars": 16607,
+    "forks": 24222,
     "language": "JavaScript"
   },
   {
     "full_name": "dreamhunter2333/cloudflare_temp_email",
     "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
     "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
-    "stars": 12171,
-    "forks": 8110,
+    "stars": 12174,
+    "forks": 8113,
     "language": "TypeScript"
   },
   {
@@ -59,31 +59,31 @@
     "full_name": "zizifn/edgetunnel",
     "html_url": "https://github.com/zizifn/edgetunnel",
     "description": "Running V2ray inside edge/serverless runtime",
-    "stars": 9348,
-    "forks": 52941,
+    "stars": 9352,
+    "forks": 52953,
     "language": "JavaScript"
   },
   {
     "full_name": "webstudio-is/webstudio",
     "html_url": "https://github.com/webstudio-is/webstudio",
     "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
-    "stars": 9190,
-    "forks": 1638,
+    "stars": 9195,
+    "forks": 1640,
     "language": "TypeScript"
   },
   {
     "full_name": "cmliu/CF-Workers-docker.io",
     "html_url": "https://github.com/cmliu/CF-Workers-docker.io",
     "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
-    "stars": 9162,
-    "forks": 10456,
+    "stars": 9160,
+    "forks": 10452,
     "language": "JavaScript"
   },
   {
     "full_name": "panva/jose",
     "html_url": "https://github.com/panva/jose",
     "description": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes",
-    "stars": 7895,
+    "stars": 7896,
     "forks": 387,
     "language": "TypeScript"
   },
@@ -91,31 +91,31 @@
     "full_name": "hieunc229/mailflare",
     "html_url": "https://github.com/hieunc229/mailflare",
     "description": "Email for professionals and teams",
-    "stars": 7711,
-    "forks": 1383,
+    "stars": 7767,
+    "forks": 1390,
     "language": "TypeScript"
   },
   {
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6977,
-    "forks": 8901,
+    "stars": 6982,
+    "forks": 8908,
     "language": "JavaScript"
   },
   {
     "full_name": "oomol-lab/open-connector",
     "html_url": "https://github.com/oomol-lab/open-connector",
     "description": "Open-source auth gateway connecting 1700+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-    "stars": 6301,
-    "forks": 630,
+    "stars": 6309,
+    "forks": 631,
     "language": "TypeScript"
   },
   {
     "full_name": "vikiboss/60s",
     "html_url": "https://github.com/vikiboss/60s",
     "description": "⏰ 60s API 免费接口。每天 60 秒看世界、奥运奖牌榜、小红书/B站/微博/抖音/知乎热搜、金价、油价、天气、翻译、壁纸、Epic 游戏、二维码、猫眼票房｜一系列 高质量、开源、可靠、全球 CDN 加速 的开放 API 集合，支持 Docker / Deno / Bun / Cloudflare Workers / Node.js 部署",
-    "stars": 5963,
+    "stars": 5966,
     "forks": 1148,
     "language": "TypeScript"
   },
@@ -123,15 +123,15 @@
     "full_name": "7Sageer/sublink-worker",
     "html_url": "https://github.com/7Sageer/sublink-worker",
     "description": "One Worker, All Subscriptions",
-    "stars": 5624,
-    "forks": 9757,
+    "stars": 5628,
+    "forks": 9754,
     "language": "JavaScript"
   },
   {
     "full_name": "cloudflare/vibesdk",
     "html_url": "https://github.com/cloudflare/vibesdk",
     "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
-    "stars": 5488,
+    "stars": 5490,
     "forks": 1286,
     "language": "TypeScript"
   },
@@ -139,15 +139,15 @@
     "full_name": "cloudflare/workers-sdk",
     "html_url": "https://github.com/cloudflare/workers-sdk",
     "description": "⛅️ Home to Wrangler, the CLI for Cloudflare Workers®",
-    "stars": 4751,
-    "forks": 1677,
+    "stars": 4752,
+    "forks": 1676,
     "language": "TypeScript"
   },
   {
     "full_name": "denuitt1/mhr-cfw",
     "html_url": "https://github.com/denuitt1/mhr-cfw",
     "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
-    "stars": 4468,
+    "stars": 4469,
     "forks": 416,
     "language": "Python"
   },
@@ -155,16 +155,16 @@
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 4320,
-    "forks": 344,
+    "stars": 4387,
+    "forks": 342,
     "language": "Rust"
   },
   {
     "full_name": "shuaiplus/nodewarden",
     "html_url": "https://github.com/shuaiplus/nodewarden",
     "description": "Bitwarden-compatible server running on Cloudflare Workers",
-    "stars": 4238,
-    "forks": 4844,
+    "stars": 4249,
+    "forks": 4860,
     "language": "TypeScript"
   },
   {
@@ -179,7 +179,7 @@
     "full_name": "AmintaCCCP/GithubStarsManager",
     "html_url": "https://github.com/AmintaCCCP/GithubStarsManager",
     "description": "AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking",
-    "stars": 3920,
+    "stars": 3928,
     "forks": 203,
     "language": "TypeScript"
   },
@@ -195,31 +195,31 @@
     "full_name": "serverless-dns/serverless-dns",
     "html_url": "https://github.com/serverless-dns/serverless-dns",
     "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
-    "stars": 3853,
-    "forks": 2276,
+    "stars": 3855,
+    "forks": 2274,
     "language": "JavaScript"
   },
   {
     "full_name": "tbxark/ChatGPT-Telegram-Workers",
     "html_url": "https://github.com/tbxark/ChatGPT-Telegram-Workers",
     "description": "Easily deploy your Telegram ChatGPT bot on Cloudflare Workers (or Vercel, Docker...).",
-    "stars": 3816,
-    "forks": 883,
+    "stars": 3818,
+    "forks": 885,
     "language": "TypeScript"
   },
   {
     "full_name": "tianma-if/edgeever",
     "html_url": "https://github.com/tianma-if/edgeever",
     "description": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
-    "stars": 3569,
-    "forks": 1856,
+    "stars": 3631,
+    "forks": 1878,
     "language": "TypeScript"
   },
   {
     "full_name": "kane50613/takumi",
     "html_url": "https://github.com/kane50613/takumi",
     "description": "Render JSX, HTML, and CSS to images, SVG, PDFs, or a paint tree without a headless browser.",
-    "stars": 3225,
+    "stars": 3226,
     "forks": 95,
     "language": "Rust"
   },

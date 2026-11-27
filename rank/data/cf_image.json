@@ -11,8 +11,8 @@
     "full_name": "MarSeventh/CloudFlare-ImgBed",
     "html_url": "https://github.com/MarSeventh/CloudFlare-ImgBed",
     "description": "🏖️ A serverless, open-source file hosting solution built on Cloudflare. Supports image hosting, secure file storage, and personal cloud drive capabilities.",
-    "stars": 6977,
-    "forks": 8901,
+    "stars": 6982,
+    "forks": 8908,
     "language": "JavaScript"
   },
   {
@@ -20,15 +20,15 @@
     "html_url": "https://github.com/cf-pages/Telegraph-Image",
     "description": "Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.",
     "stars": 4706,
-    "forks": 8833,
+    "forks": 8831,
     "language": "HTML"
   },
   {
     "full_name": "elliothux/open-compute",
     "html_url": "https://github.com/elliothux/open-compute",
     "description": "Self-hosted Cloudflare Workers-compatible platform with Workers、KV、D1、R2、DO、Queues、Workflows、Cron、Cache、Images、Vectorize、AI Search、Artifacts、Static Assets、Service Bindings、Dynamic Workers、LogTail、Gateway in one Rust binary.",
-    "stars": 4320,
-    "forks": 344,
+    "stars": 4387,
+    "forks": 342,
     "language": "Rust"
   },
   {
@@ -112,20 +112,20 @@
     "language": "Dockerfile"
   },
   {
+    "full_name": "saurav-z/free-image-generation-api",
+    "html_url": "https://github.com/saurav-z/free-image-generation-api",
+    "description": "Free AI Image Generation API using Cloudflare Workers",
+    "stars": 328,
+    "forks": 131,
+    "language": "HTML"
+  },
+  {
     "full_name": "crazy-max/docker-cloudflared",
     "html_url": "https://github.com/crazy-max/docker-cloudflared",
     "description": "Cloudflared proxy-dns Docker image",
     "stars": 327,
     "forks": 36,
     "language": "Dockerfile"
-  },
-  {
-    "full_name": "saurav-z/free-image-generation-api",
-    "html_url": "https://github.com/saurav-z/free-image-generation-api",
-    "description": "Free AI Image Generation API using Cloudflare Workers",
-    "stars": 327,
-    "forks": 131,
-    "language": "HTML"
   },
   {
     "full_name": "roimdev/roim-picx",
@@ -152,20 +152,20 @@
     "language": "TypeScript"
   },
   {
-    "full_name": "Defiabell/shotsync",
-    "html_url": "https://github.com/Defiabell/shotsync",
-    "description": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
-    "stars": 211,
-    "forks": 14,
-    "language": "TypeScript"
-  },
-  {
     "full_name": "KJGX66F/unikraft-xray-node",
     "html_url": "https://github.com/KJGX66F/unikraft-xray-node",
     "description": "Unikraft Cloud xray VLESS node: WS primary + XHTTP backup, direct + Cloudflare dual links. GitHub Actions builds the image to GHCR; fork and build your own.",
-    "stars": 209,
-    "forks": 388,
+    "stars": 216,
+    "forks": 401,
     "language": "Shell"
+  },
+  {
+    "full_name": "Defiabell/shotsync",
+    "html_url": "https://github.com/Defiabell/shotsync",
+    "description": "Self-hosted cross-device image & text pool on Cloudflare's free tier (Worker + R2). PWA client, no app install, signed share links.",
+    "stars": 212,
+    "forks": 14,
+    "language": "TypeScript"
   },
   {
     "full_name": "standardagents/sip",
