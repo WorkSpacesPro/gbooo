@@ -3,8 +3,8 @@
     "full_name": "HKUDS/DeepTutor",
     "html_url": "https://github.com/HKUDS/DeepTutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "stars": 63621,
-    "forks": 7671,
+    "stars": 63920,
+    "forks": 7703,
     "language": "Python"
   },
   {
@@ -19,7 +19,7 @@
     "full_name": "voidcosmos/npkill",
     "html_url": "https://github.com/voidcosmos/npkill",
     "description": "Easily find and remove old and heavy node_modules 📦, artifacts, caches and dev leftovers 🧹",
-    "stars": 9718,
+    "stars": 9725,
     "forks": 269,
     "language": "TypeScript"
   },
@@ -27,7 +27,7 @@
     "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-    "stars": 7479,
+    "stars": 7498,
     "forks": 926,
     "language": "Python"
   },
@@ -43,8 +43,8 @@
     "full_name": "unhappychoice/gitlogue",
     "html_url": "https://github.com/unhappychoice/gitlogue",
     "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
-    "stars": 5290,
-    "forks": 125,
+    "stars": 5293,
+    "forks": 126,
     "language": "Rust"
   }
 ]

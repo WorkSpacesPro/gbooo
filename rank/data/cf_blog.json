@@ -3,16 +3,16 @@
     "full_name": "zhuima/awesome-cloudflare",
     "html_url": "https://github.com/zhuima/awesome-cloudflare",
     "description": "⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.",
-    "stars": 15645,
-    "forks": 1539,
+    "stars": 15647,
+    "forks": 1543,
     "language": "-"
   },
   {
     "full_name": "microfeed/microfeed",
     "html_url": "https://github.com/microfeed/microfeed",
     "description": "an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
-    "stars": 4143,
-    "forks": 1431,
+    "stars": 4144,
+    "forks": 1432,
     "language": "TypeScript"
   },
   {
@@ -27,7 +27,7 @@
     "full_name": "openRin/Rin",
     "html_url": "https://github.com/openRin/Rin",
     "description": "🌸Publish faster with an edge-native blog powered by Cloudflare Workers, D1, and R2",
-    "stars": 3153,
+    "stars": 3154,
     "forks": 2575,
     "language": "TypeScript"
   },
@@ -35,7 +35,7 @@
     "full_name": "scosman/CMSaasStarter",
     "html_url": "https://github.com/scosman/CMSaasStarter",
     "description": "A modern SaaS template/boilerplate built with SvelteKit, Tailwind, and Supabase. Includes marketing page, blog, subscriptions, auth, user dashboard, user settings, pricing page, and more.",
-    "stars": 2372,
+    "stars": 2373,
     "forks": 467,
     "language": "Svelte"
   },
@@ -91,7 +91,7 @@
     "full_name": "kasuganosoras/cloudflare-worker-blog",
     "html_url": "https://github.com/kasuganosoras/cloudflare-worker-blog",
     "description": "☁️ Cloudflare workers + Github 实现的动态博客系统，使用边缘计算，无需服务器",
-    "stars": 467,
+    "stars": 466,
     "forks": 145,
     "language": "JavaScript"
   },
@@ -115,7 +115,7 @@
     "full_name": "one-ea/Monolith",
     "html_url": "https://github.com/one-ea/Monolith",
     "description": "⚡ A premium serverless edge-native blog — Cloudflare Workers + Hono + React + pluggable storage adapters",
-    "stars": 352,
+    "stars": 353,
     "forks": 74,
     "language": "TypeScript"
   },
@@ -123,8 +123,8 @@
     "full_name": "joeseesun/qiaomu-blog-opensource",
     "html_url": "https://github.com/joeseesun/qiaomu-blog-opensource",
     "description": "Open-source Cloudflare blog template based on OpenNext, Next.js 16, D1, and R2",
-    "stars": 305,
-    "forks": 113,
+    "stars": 303,
+    "forks": 112,
     "language": "TypeScript"
   },
   {

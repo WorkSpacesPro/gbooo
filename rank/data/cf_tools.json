@@ -3,8 +3,8 @@
     "full_name": "miantiao-me/Sink",
     "html_url": "https://github.com/miantiao-me/Sink",
     "description": "⚡ A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.",
-    "stars": 7299,
-    "forks": 5430,
+    "stars": 7301,
+    "forks": 5433,
     "language": "TypeScript"
   },
   {
@@ -19,7 +19,7 @@
     "full_name": "RavelloH/InsightFlare",
     "html_url": "https://github.com/RavelloH/InsightFlare",
     "description": "A powerful, privacy-friendly open source web analytics tool that runs entirely on Cloudflare.",
-    "stars": 758,
+    "stars": 759,
     "forks": 19,
     "language": "TypeScript"
   },
@@ -99,7 +99,7 @@
     "full_name": "hayaran/Edgemetry",
     "html_url": "https://github.com/hayaran/Edgemetry",
     "description": "Lightweight, privacy-friendly web analytics built for the Cloudflare edge.",
-    "stars": 72,
+    "stars": 73,
     "forks": 9,
     "language": "TypeScript"
   },
